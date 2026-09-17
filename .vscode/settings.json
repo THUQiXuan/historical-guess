@@ -1,0 +1,10 @@
+{
+  "remote.autoForwardPorts": true,
+  "remote.portsAttributes": {
+    "7992": {
+      "label": "问古 · Historical Guess",
+      "onAutoForward": "openBrowser",
+      "requireLocalPort": true
+    }
+  }
+}

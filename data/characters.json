@@ -1,0 +1,9303 @@
+[
+  {
+    "id": "cao-cao",
+    "name": "曹操",
+    "aliases": [
+      "曹孟德",
+      "孟德",
+      "魏武帝"
+    ],
+    "birth_year": 155,
+    "death_year": 220,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "政治家",
+      "军事家",
+      "诗人"
+    ],
+    "summary": "官渡之战击败袁绍，任汉丞相，封魏王；曹丕之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷1",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷01",
+      "quote": "太祖武皇帝，沛国谯人也，姓曹，讳操，字孟德，汉相国参之后。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷1",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷01"
+      }
+    ],
+    "facts": [
+      "官渡之战击败袁绍，任汉丞相，封魏王。",
+      "曹丕之父。"
+    ]
+  },
+  {
+    "id": "cao-pi",
+    "name": "曹丕",
+    "aliases": [
+      "曹子桓",
+      "子桓",
+      "魏文帝"
+    ],
+    "birth_year": 187,
+    "death_year": 226,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇帝",
+      "文学家"
+    ],
+    "summary": "曹操之子，220年受汉献帝禅让建立曹魏。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷2",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷02",
+      "quote": "文皇帝讳丕，字子桓，武帝太子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷2",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷02"
+      }
+    ],
+    "facts": [
+      "曹操之子，220年受汉献帝禅让建立曹魏。"
+    ]
+  },
+  {
+    "id": "cao-rui",
+    "name": "曹叡",
+    "aliases": [
+      "曹元仲",
+      "元仲",
+      "魏明帝"
+    ],
+    "birth_year": null,
+    "death_year": 239,
+    "active_year": 226,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "曹丕之子，曹魏第二位皇帝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷3",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷03",
+      "quote": "明皇帝讳叡，字元仲，文帝太子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷3",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷03"
+      }
+    ],
+    "facts": [
+      "曹丕之子，曹魏第二位皇帝。"
+    ]
+  },
+  {
+    "id": "cao-fang",
+    "name": "曹芳",
+    "aliases": [
+      "曹兰卿",
+      "兰卿",
+      "齐王"
+    ],
+    "birth_year": 232,
+    "death_year": 274,
+    "active_year": 254,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "曹魏皇帝，254年被司马师废黜为齐王。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷4",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷04",
+      "quote": "齐王讳芳，字兰卿。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+      }
+    ],
+    "facts": [
+      "曹魏皇帝，254年被司马师废黜为齐王。"
+    ]
+  },
+  {
+    "id": "cao-mao",
+    "name": "曹髦",
+    "aliases": [
+      "曹彦士",
+      "彦士",
+      "高贵乡公"
+    ],
+    "birth_year": 241,
+    "death_year": 260,
+    "active_year": 260,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "曹丕之孙，讨伐司马昭时遇害。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷4",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷04",
+      "quote": "五月己丑，高贵乡公卒，年二十。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+      }
+    ],
+    "facts": [
+      "曹丕之孙，讨伐司马昭时遇害。"
+    ]
+  },
+  {
+    "id": "cao-huan",
+    "name": "曹奂",
+    "aliases": [
+      "曹景明",
+      "景明",
+      "魏元帝"
+    ],
+    "birth_year": 246,
+    "death_year": 302,
+    "active_year": 265,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "曹魏末代皇帝，265年禅位给司马炎。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷4",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷04",
+      "quote": "陈留王讳奂，字景明，武帝孙，燕王宇子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+      }
+    ],
+    "facts": [
+      "曹魏末代皇帝，265年禅位给司马炎。"
+    ]
+  },
+  {
+    "id": "lady-bian",
+    "name": "卞夫人",
+    "aliases": [
+      "卞皇后",
+      "武宣卞皇后"
+    ],
+    "birth_year": 160,
+    "death_year": 230,
+    "active_year": 220,
+    "gender": "女",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "曹操之妻，曹丕、曹彰、曹植、曹熊之母。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷5",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷05",
+      "quote": "武宣卞皇后，琅邪开阳人，文帝母也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷5",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷05"
+      }
+    ],
+    "facts": [
+      "曹操之妻，曹丕、曹彰、曹植、曹熊之母。"
+    ]
+  },
+  {
+    "id": "lady-zhen",
+    "name": "甄夫人",
+    "aliases": [
+      "甄氏",
+      "文昭甄皇后"
+    ],
+    "birth_year": 183,
+    "death_year": 221,
+    "active_year": 220,
+    "gender": "女",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "先嫁袁熙，后嫁曹丕；曹叡之母，221年被赐死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷5",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷05",
+      "quote": "文帝之不立甄氏，及加杀害，事有明审。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷5",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷05"
+      }
+    ],
+    "facts": [
+      "先嫁袁熙，后嫁曹丕。",
+      "曹叡之母，221年被赐死。"
+    ]
+  },
+  {
+    "id": "guo-nvwang",
+    "name": "郭女王",
+    "aliases": [
+      "郭皇后",
+      "文德郭皇后"
+    ],
+    "birth_year": 184,
+    "death_year": 235,
+    "active_year": 222,
+    "gender": "女",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "曹丕皇后，字女王；被曹叡尊为皇太后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷5",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷05",
+      "quote": "文德郭皇后，安平广宗人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷5",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷05"
+      }
+    ],
+    "facts": [
+      "曹丕皇后，字女王。",
+      "被曹叡尊为皇太后。"
+    ]
+  },
+  {
+    "id": "dong-zhuo",
+    "name": "董卓",
+    "aliases": [
+      "董仲颖",
+      "仲颖"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "active_year": 189,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "权臣",
+      "军阀"
+    ],
+    "summary": "189年进入洛阳，废少帝立献帝，192年被吕布等诛杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷6",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷06",
+      "quote": "董卓字仲颖，陇西临洮人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷6",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷06"
+      }
+    ],
+    "facts": [
+      "189年进入洛阳，废少帝立献帝，192年被吕布等诛杀。"
+    ]
+  },
+  {
+    "id": "yuan-shao",
+    "name": "袁绍",
+    "aliases": [
+      "袁本初",
+      "本初"
+    ],
+    "birth_year": null,
+    "death_year": 202,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "军阀"
+    ],
+    "summary": "以冀州为根据地，官渡之战败于曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷6",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷06",
+      "quote": "袁绍字本初，汝南汝阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷6",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷06"
+      }
+    ],
+    "facts": [
+      "以冀州为根据地，官渡之战败于曹操。"
+    ]
+  },
+  {
+    "id": "yuan-shu",
+    "name": "袁术",
+    "aliases": [
+      "袁公路",
+      "公路"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "active_year": 197,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "军阀",
+      "皇帝"
+    ],
+    "summary": "袁绍从弟，197年在寿春称帝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷6",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷06",
+      "quote": "袁术字公路，司空逢子，绍之从弟也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷6",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷06"
+      }
+    ],
+    "facts": [
+      "袁绍从弟，197年在寿春称帝。"
+    ]
+  },
+  {
+    "id": "liu-biao",
+    "name": "刘表",
+    "aliases": [
+      "刘景升",
+      "景升"
+    ],
+    "birth_year": 142,
+    "death_year": 208,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "州牧"
+    ],
+    "summary": "汉室宗亲，长期统治荆州。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷6",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷06",
+      "quote": "刘表字景升，山阳高平人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷6",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷06"
+      }
+    ],
+    "facts": [
+      "汉室宗亲，长期统治荆州。"
+    ]
+  },
+  {
+    "id": "lv-bu",
+    "name": "吕布",
+    "aliases": [
+      "吕奉先",
+      "奉先"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "active_year": 198,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "军阀",
+      "武将"
+    ],
+    "summary": "先后依附丁原、董卓，曾与王允诛杀董卓，后败于下邳。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷7",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷07",
+      "quote": "吕布字奉先，五原郡九原人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷7",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷07"
+      }
+    ],
+    "facts": [
+      "先后依附丁原、董卓，曾与王允诛杀董卓，后败于下邳。"
+    ]
+  },
+  {
+    "id": "chen-gong",
+    "name": "陈宫",
+    "aliases": [
+      "陈公台",
+      "公台"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "active_year": 198,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "曾支持曹操，后辅佐吕布，吕布败后被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷7",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷07",
+      "quote": "〈鱼氏《典略 》曰：陈宫字公台，东郡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷7",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷07"
+      }
+    ],
+    "facts": [
+      "曾支持曹操，后辅佐吕布，吕布败后被杀。"
+    ]
+  },
+  {
+    "id": "zhang-miao",
+    "name": "张邈",
+    "aliases": [
+      "张孟卓",
+      "孟卓"
+    ],
+    "birth_year": null,
+    "death_year": 195,
+    "active_year": 194,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "官员",
+      "军阀"
+    ],
+    "summary": "陈留太守，参与迎吕布入兖州反曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷7",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷07",
+      "quote": "张邈字孟卓，东平寿张人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷7",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷07"
+      }
+    ],
+    "facts": [
+      "陈留太守，参与迎吕布入兖州反曹操。"
+    ]
+  },
+  {
+    "id": "chen-deng",
+    "name": "陈登",
+    "aliases": [
+      "陈元龙",
+      "元龙"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 198,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "陈珪之子，任广陵太守，参与曹操与吕布间的谋划。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷7",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷07",
+      "quote": "陈登者，字元龙，在广陵有威名。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷7",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷07"
+      }
+    ],
+    "facts": [
+      "陈珪之子，任广陵太守，参与曹操与吕布间的谋划。"
+    ]
+  },
+  {
+    "id": "zang-hong",
+    "name": "臧洪",
+    "aliases": [
+      "臧子源",
+      "子源"
+    ],
+    "birth_year": null,
+    "death_year": 196,
+    "active_year": 195,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾主持讨董卓盟誓，后因援救张超与袁绍决裂。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷7",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷07",
+      "quote": "臧洪字子源，广陵射阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷7",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷07"
+      }
+    ],
+    "facts": [
+      "曾主持讨董卓盟誓，后因援救张超与袁绍决裂。"
+    ]
+  },
+  {
+    "id": "gongsun-zan",
+    "name": "公孙瓒",
+    "aliases": [
+      "公孙伯珪",
+      "伯珪"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "active_year": 193,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "军阀"
+    ],
+    "summary": "幽州军阀，与刘虞及袁绍冲突，最终败于易京。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "公孙瓒字伯珪，辽西令支人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "幽州军阀，与刘虞及袁绍冲突，最终败于易京。"
+    ]
+  },
+  {
+    "id": "tao-qian",
+    "name": "陶谦",
+    "aliases": [
+      "陶恭祖",
+      "恭祖"
+    ],
+    "birth_year": 132,
+    "death_year": 194,
+    "active_year": 193,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "州牧"
+    ],
+    "summary": "徐州牧，与曹操交战，临终托付徐州于刘备。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "陶谦昏乱而忧死，张杨授首于臣下，皆拥据州郡，曾匹夫之不若，固无可论者也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "徐州牧，与曹操交战，临终托付徐州于刘备。"
+    ]
+  },
+  {
+    "id": "zhang-yang",
+    "name": "张杨",
+    "aliases": [
+      "张稚叔",
+      "稚叔"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "active_year": 196,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "军阀"
+    ],
+    "summary": "据河内，曾帮助汉献帝东归。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "张杨字稚叔，云中人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "据河内，曾帮助汉献帝东归。"
+    ]
+  },
+  {
+    "id": "zhang-yan",
+    "name": "张燕",
+    "aliases": [
+      "褚燕",
+      "飞燕"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 205,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "军阀"
+    ],
+    "summary": "黑山军首领，本姓褚，后归附曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "汝当碎首于张燕，速致轻骑，到者当起烽火于北，吾当从内出。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "黑山军首领，本姓褚，后归附曹操。"
+    ]
+  },
+  {
+    "id": "zhang-xiu",
+    "name": "张绣",
+    "aliases": [],
+    "birth_year": null,
+    "death_year": 207,
+    "active_year": 199,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "张济从子，先于宛城击败曹操，后归降曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "张绣，武威祖厉人，骠骑将军济族子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "张济从子，先于宛城击败曹操，后归降曹操。"
+    ]
+  },
+  {
+    "id": "zhang-lu",
+    "name": "张鲁",
+    "aliases": [
+      "张公祺",
+      "公祺"
+    ],
+    "birth_year": null,
+    "death_year": 216,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "宗教领袖",
+      "军阀"
+    ],
+    "summary": "据汉中，以五斗米道教化民众，215年归附曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷8",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+      "quote": "张鲁字公祺，沛国丰人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷08"
+      }
+    ],
+    "facts": [
+      "据汉中，以五斗米道教化民众，215年归附曹操。"
+    ]
+  },
+  {
+    "id": "xiahou-dun",
+    "name": "夏侯惇",
+    "aliases": [
+      "夏侯元让",
+      "元让"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操早期将领，曾被流矢射伤一目。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "夏侯惇字元让，沛国谯人，夏侯婴之后也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹操早期将领，曾被流矢射伤一目。"
+    ]
+  },
+  {
+    "id": "xiahou-yuan",
+    "name": "夏侯渊",
+    "aliases": [
+      "夏侯妙才",
+      "妙才"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操部将，219年战死于定军山。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "夏侯渊字妙才，惇族弟也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹操部将，219年战死于定军山。"
+    ]
+  },
+  {
+    "id": "cao-ren",
+    "name": "曹仁",
+    "aliases": [
+      "曹子孝",
+      "子孝"
+    ],
+    "birth_year": 168,
+    "death_year": 223,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操从弟，曾据守樊城抵抗关羽。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "曹仁字子孝，太祖从弟也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹操从弟，曾据守樊城抵抗关羽。"
+    ]
+  },
+  {
+    "id": "cao-hong",
+    "name": "曹洪",
+    "aliases": [
+      "曹子廉",
+      "子廉"
+    ],
+    "birth_year": null,
+    "death_year": 232,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操从弟，曾舍马救曹操，后任骠骑将军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "曹洪字子廉，太祖从弟也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹操从弟，曾舍马救曹操，后任骠骑将军。"
+    ]
+  },
+  {
+    "id": "cao-xiu",
+    "name": "曹休",
+    "aliases": [
+      "曹文烈",
+      "文烈"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹氏宗族将领，石亭之战败于陆逊等吴军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "曹休字文烈，太祖族子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹氏宗族将领，石亭之战败于陆逊等吴军。"
+    ]
+  },
+  {
+    "id": "cao-zhen",
+    "name": "曹真",
+    "aliases": [
+      "曹子丹",
+      "子丹"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹魏大司马，曾统军抵御诸葛亮北伐；曹爽之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "曹真字子丹，太祖族子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹魏大司马，曾统军抵御诸葛亮北伐。",
+      "曹爽之父。"
+    ]
+  },
+  {
+    "id": "cao-shuang",
+    "name": "曹爽",
+    "aliases": [
+      "曹昭伯",
+      "昭伯"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "active_year": 249,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "曹真之子，与司马懿共同受遗辅政，高平陵之变后被诛。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "霸，正始中为讨蜀护军右将军，进封博昌亭侯，素为曹爽所厚。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "曹真之子，与司马懿共同受遗辅政，高平陵之变后被诛。"
+    ]
+  },
+  {
+    "id": "xiahou-shang",
+    "name": "夏侯尚",
+    "aliases": [
+      "夏侯伯仁",
+      "伯仁"
+    ],
+    "birth_year": null,
+    "death_year": 225,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "夏侯渊从子，曾参与攻打江陵。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷9",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷09",
+      "quote": "夏侯尚字伯仁，渊从子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷09"
+      }
+    ],
+    "facts": [
+      "夏侯渊从子，曾参与攻打江陵。"
+    ]
+  },
+  {
+    "id": "xun-yu",
+    "name": "荀彧",
+    "aliases": [
+      "荀文若",
+      "文若"
+    ],
+    "birth_year": 163,
+    "death_year": 212,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "谋士",
+      "官员"
+    ],
+    "summary": "曹操重要谋臣，任尚书令，支持迎奉汉献帝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "荀彧字文若，颍川颍阴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "曹操重要谋臣，任尚书令，支持迎奉汉献帝。"
+    ]
+  },
+  {
+    "id": "xun-you",
+    "name": "荀攸",
+    "aliases": [
+      "荀公达",
+      "公达"
+    ],
+    "birth_year": 157,
+    "death_year": 214,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "曹操谋主，参与官渡之战等战役的谋划。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "荀攸字公达，彧从子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "曹操谋主，参与官渡之战等战役的谋划。"
+    ]
+  },
+  {
+    "id": "jia-xu",
+    "name": "贾诩",
+    "aliases": [
+      "贾文和",
+      "文和"
+    ],
+    "birth_year": 147,
+    "death_year": 223,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "先后为李傕、张绣、曹操出谋，曹丕时任太尉。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "贾诩字文和，武威姑臧人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "先后为李傕、张绣、曹操出谋，曹丕时任太尉。"
+    ]
+  },
+  {
+    "id": "yuan-huan",
+    "name": "袁涣",
+    "aliases": [
+      "袁曜卿",
+      "曜卿"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "先后辗转袁术、吕布处，后为曹操所用。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷11",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷11",
+      "quote": "袁涣字曜卿，陈郡扶乐人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷11",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷11"
+      }
+    ],
+    "facts": [
+      "先后辗转袁术、吕布处，后为曹操所用。"
+    ]
+  },
+  {
+    "id": "tian-chou",
+    "name": "田畴",
+    "aliases": [
+      "田子泰",
+      "子泰"
+    ],
+    "birth_year": 169,
+    "death_year": 214,
+    "active_year": 207,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾隐居徐无山，引导曹操出兵乌丸。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷11",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷11",
+      "quote": "田畴字子泰，右北平无终人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷11",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷11"
+      }
+    ],
+    "facts": [
+      "曾隐居徐无山，引导曹操出兵乌丸。"
+    ]
+  },
+  {
+    "id": "bing-yuan",
+    "name": "邴原",
+    "aliases": [
+      "邴根矩",
+      "根矩"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "学者"
+    ],
+    "summary": "北海朱虚人，与管宁等避乱辽东，后归曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷11",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷11",
+      "quote": "太祖征伐，常令范及邴原留，与世子居守。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷11",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷11"
+      }
+    ],
+    "facts": [
+      "北海朱虚人，与管宁等避乱辽东，后归曹操。"
+    ]
+  },
+  {
+    "id": "guan-ning",
+    "name": "管宁",
+    "aliases": [
+      "管幼安",
+      "幼安"
+    ],
+    "birth_year": 158,
+    "death_year": 241,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "学者",
+      "隐士"
+    ],
+    "summary": "曾避乱辽东，多次辞谢朝廷征召。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷11",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷11",
+      "quote": "”〉后与邴原、管宁等避乱辽东。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷11",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷11"
+      }
+    ],
+    "facts": [
+      "曾避乱辽东，多次辞谢朝廷征召。"
+    ]
+  },
+  {
+    "id": "cui-yan",
+    "name": "崔琰",
+    "aliases": [
+      "崔季珪",
+      "季珪"
+    ],
+    "birth_year": null,
+    "death_year": 216,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "清河人，先从袁绍后从曹操，以选举人才著称。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷12",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷12",
+      "quote": "崔琰字季珪，清河东武城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷12",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷12"
+      }
+    ],
+    "facts": [
+      "清河人，先从袁绍后从曹操，以选举人才著称。"
+    ]
+  },
+  {
+    "id": "mao-jie",
+    "name": "毛玠",
+    "aliases": [
+      "毛孝先",
+      "孝先"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曹操属官，曾提出奉天子以令不臣。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷12",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷12",
+      "quote": "毛玠字孝先，陈留平丘人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷12",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷12"
+      }
+    ],
+    "facts": [
+      "曹操属官，曾提出奉天子以令不臣。"
+    ]
+  },
+  {
+    "id": "he-kui",
+    "name": "何夔",
+    "aliases": [
+      "何叔龙",
+      "叔龙"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "陈郡阳夏人，任太子少傅。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷12",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷12",
+      "quote": "何夔字叔龙，陈郡阳夏人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷12",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷12"
+      }
+    ],
+    "facts": [
+      "陈郡阳夏人，任太子少傅。"
+    ]
+  },
+  {
+    "id": "bao-xun",
+    "name": "鲍勋",
+    "aliases": [
+      "鲍叔业",
+      "叔业"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "active_year": 225,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "鲍信之子，任御史中丞，屡次谏曹丕。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷12",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷12",
+      "quote": "鲍勋字叔业，泰山平阳人也，汉司隶校尉鲍宣九世孙。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷12",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷12"
+      }
+    ],
+    "facts": [
+      "鲍信之子，任御史中丞，屡次谏曹丕。"
+    ]
+  },
+  {
+    "id": "zhong-yao",
+    "name": "钟繇",
+    "aliases": [
+      "锺繇",
+      "钟元常",
+      "元常"
+    ],
+    "birth_year": 151,
+    "death_year": 230,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员",
+      "书法家"
+    ],
+    "summary": "颍川长社人，任太傅，以书法著称。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷13",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷13",
+      "quote": "锺繇字元常，颕川长社人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷13",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷13"
+      }
+    ],
+    "facts": [
+      "颍川长社人，任太傅，以书法著称。"
+    ]
+  },
+  {
+    "id": "hua-xin",
+    "name": "华歆",
+    "aliases": [
+      "华子鱼",
+      "子鱼"
+    ],
+    "birth_year": 157,
+    "death_year": 232,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "平原高唐人，历仕汉末诸势力，曹魏任太尉。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷13",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷13",
+      "quote": "时司徒华歆、司空王朗，并先世名臣。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷13",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷13"
+      }
+    ],
+    "facts": [
+      "平原高唐人，历仕汉末诸势力，曹魏任太尉。"
+    ]
+  },
+  {
+    "id": "wang-lang",
+    "name": "王朗",
+    "aliases": [
+      "王景兴",
+      "景兴"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员",
+      "经学家"
+    ],
+    "summary": "曾任会稽太守，后归曹操，曹魏任司徒。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷13",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷13",
+      "quote": "时司徒华歆、司空王朗，并先世名臣。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷13",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷13"
+      }
+    ],
+    "facts": [
+      "曾任会稽太守，后归曹操，曹魏任司徒。"
+    ]
+  },
+  {
+    "id": "cheng-yu",
+    "name": "程昱",
+    "aliases": [
+      "程仲德",
+      "仲德"
+    ],
+    "birth_year": 141,
+    "death_year": 220,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "东郡东阿人，曹操谋臣，曾协助保全兖州。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷14",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷14",
+      "quote": "程昱字仲德，东郡东阿人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷14",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷14"
+      }
+    ],
+    "facts": [
+      "东郡东阿人，曹操谋臣，曾协助保全兖州。"
+    ]
+  },
+  {
+    "id": "guo-jia",
+    "name": "郭嘉",
+    "aliases": [
+      "郭奉孝",
+      "奉孝"
+    ],
+    "birth_year": 170,
+    "death_year": 207,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "曹操谋臣，任司空军祭酒，北征乌丸后病逝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷14",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷14",
+      "quote": "郭嘉字奉孝，颍川阳翟人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷14",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷14"
+      }
+    ],
+    "facts": [
+      "曹操谋臣，任司空军祭酒，北征乌丸后病逝。"
+    ]
+  },
+  {
+    "id": "dong-zhao",
+    "name": "董昭",
+    "aliases": [
+      "董公仁",
+      "公仁"
+    ],
+    "birth_year": 156,
+    "death_year": 236,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员",
+      "谋士"
+    ],
+    "summary": "参与曹操迎奉汉献帝及建立魏国的谋议。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷14",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷14",
+      "quote": "董昭字公仁，济阴定陶人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷14",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷14"
+      }
+    ],
+    "facts": [
+      "参与曹操迎奉汉献帝及建立魏国的谋议。"
+    ]
+  },
+  {
+    "id": "liu-ye",
+    "name": "刘晔",
+    "aliases": [
+      "刘子扬",
+      "子扬"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "汉室宗亲，归曹操后参与军政谋议。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷14",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷14",
+      "quote": "刘晔字子扬，淮南成悳人，〈惪音德。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷14",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷14"
+      }
+    ],
+    "facts": [
+      "汉室宗亲，归曹操后参与军政谋议。"
+    ]
+  },
+  {
+    "id": "jiang-ji",
+    "name": "蒋济",
+    "aliases": [
+      "蒋子通",
+      "子通"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "active_year": 249,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员",
+      "谋士"
+    ],
+    "summary": "历仕曹魏，曾参与高平陵之变。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷14",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷14",
+      "quote": "蒋济字子通，楚国平阿人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷14",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷14"
+      }
+    ],
+    "facts": [
+      "历仕曹魏，曾参与高平陵之变。"
+    ]
+  },
+  {
+    "id": "liu-fu",
+    "name": "刘馥",
+    "aliases": [
+      "刘元颖",
+      "元颖"
+    ],
+    "birth_year": null,
+    "death_year": 208,
+    "active_year": 205,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "任扬州刺史，经营合肥，兴修水利与城防。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷15",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷15",
+      "quote": "刘馥字元颖，沛国相人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷15",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷15"
+      }
+    ],
+    "facts": [
+      "任扬州刺史，经营合肥，兴修水利与城防。"
+    ]
+  },
+  {
+    "id": "sima-lang",
+    "name": "司马朗",
+    "aliases": [
+      "司马伯达",
+      "伯达"
+    ],
+    "birth_year": 171,
+    "death_year": 217,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "司马懿之兄，曾任兖州刺史。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷15",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷15",
+      "quote": "司马朗字伯达，河内温人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷15",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷15"
+      }
+    ],
+    "facts": [
+      "司马懿之兄，曾任兖州刺史。"
+    ]
+  },
+  {
+    "id": "liang-xi",
+    "name": "梁习",
+    "aliases": [
+      "梁子虞",
+      "子虞"
+    ],
+    "birth_year": null,
+    "death_year": 230,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曹操任用的并州刺史，整顿边地秩序。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷15",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷15",
+      "quote": "梁习字子虞，陈郡柘人也，为郡纲纪。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷15",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷15"
+      }
+    ],
+    "facts": [
+      "曹操任用的并州刺史，整顿边地秩序。"
+    ]
+  },
+  {
+    "id": "zhang-ji",
+    "name": "张既",
+    "aliases": [
+      "张德容",
+      "德容"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "冯翊高陵人，曾任雍州、凉州刺史。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷15",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷15",
+      "quote": "张既字德容，冯翊高陵人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷15",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷15"
+      }
+    ],
+    "facts": [
+      "冯翊高陵人，曾任雍州、凉州刺史。"
+    ]
+  },
+  {
+    "id": "jia-kui",
+    "name": "贾逵",
+    "aliases": [
+      "贾梁道",
+      "梁道"
+    ],
+    "birth_year": 174,
+    "death_year": 228,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "河东襄陵人，曾任豫州刺史；贾充之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷15",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷15",
+      "quote": "贾逵字梁道，河东襄陵人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷15",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷15"
+      }
+    ],
+    "facts": [
+      "河东襄陵人，曾任豫州刺史。",
+      "贾充之父。"
+    ]
+  },
+  {
+    "id": "ren-jun",
+    "name": "任峻",
+    "aliases": [
+      "任伯达",
+      "伯达"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "active_year": 196,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "与枣祗等推动曹操屯田，主管军粮。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷16",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷16",
+      "quote": "任峻字伯达，河南中牟人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷16",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷16"
+      }
+    ],
+    "facts": [
+      "与枣祗等推动曹操屯田，主管军粮。"
+    ]
+  },
+  {
+    "id": "du-ji",
+    "name": "杜畿",
+    "aliases": [
+      "杜伯侯",
+      "伯侯"
+    ],
+    "birth_year": 163,
+    "death_year": 224,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "京兆杜陵人，长期任河东太守。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷16",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷16",
+      "quote": "杜畿字伯侯，京兆杜陵人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷16",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷16"
+      }
+    ],
+    "facts": [
+      "京兆杜陵人，长期任河东太守。"
+    ]
+  },
+  {
+    "id": "zhang-liao",
+    "name": "张辽",
+    "aliases": [
+      "张文远",
+      "文远"
+    ],
+    "birth_year": 169,
+    "death_year": 222,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "先从吕布，后归曹操，合肥之战击退孙权军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷17",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷17",
+      "quote": "张辽字文远，雁门马邑人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷17",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷17"
+      }
+    ],
+    "facts": [
+      "先从吕布，后归曹操，合肥之战击退孙权军。"
+    ]
+  },
+  {
+    "id": "yue-jin",
+    "name": "乐进",
+    "aliases": [
+      "乐文谦",
+      "文谦"
+    ],
+    "birth_year": null,
+    "death_year": 218,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操部将，常先登破阵，参与合肥防御。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷17",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷17",
+      "quote": "乐进字文谦，阳平卫国人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷17",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷17"
+      }
+    ],
+    "facts": [
+      "曹操部将，常先登破阵，参与合肥防御。"
+    ]
+  },
+  {
+    "id": "yu-jin",
+    "name": "于禁",
+    "aliases": [
+      "于文则",
+      "文则"
+    ],
+    "birth_year": null,
+    "death_year": 221,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操部将，219年樊城之战因洪水兵败降关羽。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷17",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷17",
+      "quote": "于禁字文则，泰山钜平人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷17",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷17"
+      }
+    ],
+    "facts": [
+      "曹操部将，219年樊城之战因洪水兵败降关羽。"
+    ]
+  },
+  {
+    "id": "zhang-he",
+    "name": "张郃",
+    "aliases": [
+      "张儁乂",
+      "儁乂"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "先从袁绍后归曹操，228年在街亭击败马谡。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷17",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷17",
+      "quote": "张郃字隽乂，河间鄚人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷17",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷17"
+      }
+    ],
+    "facts": [
+      "先从袁绍后归曹操，228年在街亭击败马谡。"
+    ]
+  },
+  {
+    "id": "xu-huang",
+    "name": "徐晃",
+    "aliases": [
+      "徐公明",
+      "公明"
+    ],
+    "birth_year": null,
+    "death_year": 227,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "219年统军解樊城之围。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷17",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷17",
+      "quote": "徐晃字公明，河东杨人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷17",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷17"
+      }
+    ],
+    "facts": [
+      "219年统军解樊城之围。"
+    ]
+  },
+  {
+    "id": "li-dian",
+    "name": "李典",
+    "aliases": [
+      "李曼成",
+      "曼成"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操部将，与张辽、乐进共同镇守合肥。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "李典字曼成，山阳钜野人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "曹操部将，与张辽、乐进共同镇守合肥。"
+    ]
+  },
+  {
+    "id": "zang-ba",
+    "name": "臧霸",
+    "aliases": [
+      "臧宣高",
+      "宣高"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "泰山华县人，归附曹操后统领青徐一带军队。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "臧霸字宣高，泰山华人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "泰山华县人，归附曹操后统领青徐一带军队。"
+    ]
+  },
+  {
+    "id": "wen-pin",
+    "name": "文聘",
+    "aliases": [
+      "文仲业",
+      "仲业"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "原为刘表部将，后归曹操，长期镇守江夏。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "文聘字仲业，南阳宛人也，为刘表大将，使御北方。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "原为刘表部将，后归曹操，长期镇守江夏。"
+    ]
+  },
+  {
+    "id": "xu-chu",
+    "name": "许褚",
+    "aliases": [
+      "许仲康",
+      "仲康",
+      "虎痴"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操亲卫将领，以勇力著称。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "许褚字仲康，谯国谯人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "曹操亲卫将领，以勇力著称。"
+    ]
+  },
+  {
+    "id": "dian-wei",
+    "name": "典韦",
+    "aliases": [],
+    "birth_year": null,
+    "death_year": 197,
+    "active_year": 197,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曹操亲卫将领，在宛城之战中战死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "许褚、典韦折冲左右，抑亦汉之樊哙也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "曹操亲卫将领，在宛城之战中战死。"
+    ]
+  },
+  {
+    "id": "pang-de",
+    "name": "庞德",
+    "aliases": [
+      "庞令明",
+      "令明"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾从马腾、马超，后归曹操，樊城战败后被关羽杀死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "庞德字令明，南安狟道人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "曾从马腾、马超，后归曹操，樊城战败后被关羽杀死。"
+    ]
+  },
+  {
+    "id": "cao-zhang",
+    "name": "曹彰",
+    "aliases": [
+      "曹子文",
+      "子文",
+      "任城威王"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "active_year": 218,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "宗室",
+      "武将"
+    ],
+    "summary": "曹操与卞夫人之子，曾北征代郡乌丸。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷19",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷19",
+      "quote": "任城威王彰，字子文。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷19",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷19"
+      }
+    ],
+    "facts": [
+      "曹操与卞夫人之子，曾北征代郡乌丸。"
+    ]
+  },
+  {
+    "id": "cao-zhi",
+    "name": "曹植",
+    "aliases": [
+      "曹子建",
+      "子建",
+      "陈思王"
+    ],
+    "birth_year": 192,
+    "death_year": 232,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "诗人",
+      "宗室"
+    ],
+    "summary": "曹操之子，代表作品有《洛神赋》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷19",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷19",
+      "quote": "’其意以为坐曹植也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷19",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷19"
+      }
+    ],
+    "facts": [
+      "曹操之子，代表作品有《洛神赋》。"
+    ]
+  },
+  {
+    "id": "cao-chong",
+    "name": "曹冲",
+    "aliases": [
+      "曹仓舒",
+      "仓舒"
+    ],
+    "birth_year": 196,
+    "death_year": 208,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "宗室"
+    ],
+    "summary": "曹操之子，史书载其以船称象的故事。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷20",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷20",
+      "quote": "邓哀王沖字仓舒。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷20",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷20"
+      }
+    ],
+    "facts": [
+      "曹操之子，史书载其以船称象的故事。"
+    ]
+  },
+  {
+    "id": "wang-can",
+    "name": "王粲",
+    "aliases": [
+      "王仲宣",
+      "仲宣"
+    ],
+    "birth_year": 177,
+    "death_year": 217,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "建安文学家，曾依刘表，后归曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷21",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷21",
+      "quote": "王粲字仲宣，山阳高平人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷21",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷21"
+      }
+    ],
+    "facts": [
+      "建安文学家，曾依刘表，后归曹操。"
+    ]
+  },
+  {
+    "id": "chen-lin",
+    "name": "陈琳",
+    "aliases": [
+      "陈孔璋",
+      "孔璋"
+    ],
+    "birth_year": null,
+    "death_year": 217,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "曾为袁绍撰写檄文，后为曹操掌文书。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷21",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷21",
+      "quote": "粲与北海徐幹字伟长、广陵陈琳字孔璋、陈留阮瑀字元瑜、汝南应玚字德琏、〈玚，音徒哽反，一音畅。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷21",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷21"
+      }
+    ],
+    "facts": [
+      "曾为袁绍撰写檄文，后为曹操掌文书。"
+    ]
+  },
+  {
+    "id": "liu-zhen",
+    "name": "刘桢",
+    "aliases": [
+      "刘公干",
+      "公干"
+    ],
+    "birth_year": null,
+    "death_year": 217,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "东平宁阳人，建安文学家。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷21",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷21",
+      "quote": "〉东平刘桢字公幹并见友善。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷21",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷21"
+      }
+    ],
+    "facts": [
+      "东平宁阳人，建安文学家。"
+    ]
+  },
+  {
+    "id": "ruan-yu",
+    "name": "阮瑀",
+    "aliases": [
+      "阮元瑜",
+      "元瑜"
+    ],
+    "birth_year": 165,
+    "death_year": 212,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "陈留尉氏人，曾为曹操掌书记。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷21",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷21",
+      "quote": "粲与北海徐幹字伟长、广陵陈琳字孔璋、陈留阮瑀字元瑜、汝南应玚字德琏、〈玚，音徒哽反，一音畅。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷21",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷21"
+      }
+    ],
+    "facts": [
+      "陈留尉氏人，曾为曹操掌书记。"
+    ]
+  },
+  {
+    "id": "yang-xiu",
+    "name": "杨修",
+    "aliases": [
+      "杨德祖",
+      "德祖"
+    ],
+    "birth_year": 175,
+    "death_year": 219,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "杨彪之子，任曹操主簿。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷21",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷21",
+      "quote": "”〉沛国丁仪、丁廙、弘农杨修、河内苟纬等，亦有文采，而不在此七人之例。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷21",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷21"
+      }
+    ],
+    "facts": [
+      "杨彪之子，任曹操主簿。"
+    ]
+  },
+  {
+    "id": "chen-qun",
+    "name": "陈群",
+    "aliases": [
+      "陈长文",
+      "长文"
+    ],
+    "birth_year": null,
+    "death_year": 237,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "提出九品官人法，曹魏重臣；陈泰之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷22",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷22",
+      "quote": "陈群字长文，颍川许昌（人）也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷22",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷22"
+      }
+    ],
+    "facts": [
+      "提出九品官人法，曹魏重臣。",
+      "陈泰之父。"
+    ]
+  },
+  {
+    "id": "han-ji",
+    "name": "韩暨",
+    "aliases": [
+      "韩公至",
+      "公至"
+    ],
+    "birth_year": null,
+    "death_year": 238,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "改进冶铁鼓风方法，曾任大鸿胪、司徒。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷24",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷24",
+      "quote": "韩暨字公至，南阳堵阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷24",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷24"
+      }
+    ],
+    "facts": [
+      "改进冶铁鼓风方法，曾任大鸿胪、司徒。"
+    ]
+  },
+  {
+    "id": "gao-rou",
+    "name": "高柔",
+    "aliases": [
+      "高文惠",
+      "文惠"
+    ],
+    "birth_year": 174,
+    "death_year": 263,
+    "active_year": 249,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曹魏廷尉，历任司空、司徒、太尉。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷24",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷24",
+      "quote": "高柔字文惠，陈留圉人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷24",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷24"
+      }
+    ],
+    "facts": [
+      "曹魏廷尉，历任司空、司徒、太尉。"
+    ]
+  },
+  {
+    "id": "xin-pi",
+    "name": "辛毗",
+    "aliases": [
+      "辛佐治",
+      "佐治"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "原从袁氏后归曹操，曾持节制止司马懿出战。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷25",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷25",
+      "quote": "辛毗字佐治，颍川阳翟人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷25",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷25"
+      }
+    ],
+    "facts": [
+      "原从袁氏后归曹操，曾持节制止司马懿出战。"
+    ]
+  },
+  {
+    "id": "yang-fu",
+    "name": "杨阜",
+    "aliases": [
+      "杨义山",
+      "义山"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "天水冀人，参与驱逐马超，后任少府。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷25",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷25",
+      "quote": "杨阜字义山，天水冀人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷25",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷25"
+      }
+    ],
+    "facts": [
+      "天水冀人，参与驱逐马超，后任少府。"
+    ]
+  },
+  {
+    "id": "man-chong",
+    "name": "满宠",
+    "aliases": [
+      "满伯宁",
+      "伯宁"
+    ],
+    "birth_year": null,
+    "death_year": 242,
+    "active_year": 233,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "镇守淮南，推动修筑合肥新城。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "满宠字伯宁，山阳昌邑人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "镇守淮南，推动修筑合肥新城。"
+    ]
+  },
+  {
+    "id": "tian-yu",
+    "name": "田豫",
+    "aliases": [
+      "田国让",
+      "国让"
+    ],
+    "birth_year": 171,
+    "death_year": 252,
+    "active_year": 230,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾从刘备、公孙瓒，后仕曹魏，经营北方边防。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "田豫字国让，渔阳雍奴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "曾从刘备、公孙瓒，后仕曹魏，经营北方边防。"
+    ]
+  },
+  {
+    "id": "qian-zhao",
+    "name": "牵招",
+    "aliases": [
+      "牵子经",
+      "子经"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 230,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾从袁绍，后归曹操，任雁门太守。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "牵招字子经，安平观津人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "曾从袁绍，后归曹操，任雁门太守。"
+    ]
+  },
+  {
+    "id": "guo-huai",
+    "name": "郭淮",
+    "aliases": [
+      "郭伯济",
+      "伯济"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "长期统兵于关陇，参与抵御蜀汉北伐。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "郭淮字伯济，太原阳曲人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "长期统兵于关陇，参与抵御蜀汉北伐。"
+    ]
+  },
+  {
+    "id": "xu-miao",
+    "name": "徐邈",
+    "aliases": [
+      "徐景山",
+      "景山"
+    ],
+    "birth_year": 172,
+    "death_year": 249,
+    "active_year": 230,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾任凉州刺史，以清廉著称。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷27",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷27",
+      "quote": "徐邈字景山，燕国蓟人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷27",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷27"
+      }
+    ],
+    "facts": [
+      "曾任凉州刺史，以清廉著称。"
+    ]
+  },
+  {
+    "id": "hu-zhi",
+    "name": "胡质",
+    "aliases": [
+      "胡文德",
+      "文德"
+    ],
+    "birth_year": null,
+    "death_year": 250,
+    "active_year": 240,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾任荆州刺史、征东将军；胡威之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷27",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷27",
+      "quote": "胡质字文德，楚国寿春人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷27",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷27"
+      }
+    ],
+    "facts": [
+      "曾任荆州刺史、征东将军。",
+      "胡威之父。"
+    ]
+  },
+  {
+    "id": "wang-chang",
+    "name": "王昶",
+    "aliases": [
+      "王文舒",
+      "文舒"
+    ],
+    "birth_year": null,
+    "death_year": 259,
+    "active_year": 250,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "太原晋阳人，曹魏重臣，曾任征南将军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷27",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷27",
+      "quote": "王昶字文舒，太原晋阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷27",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷27"
+      }
+    ],
+    "facts": [
+      "太原晋阳人，曹魏重臣，曾任征南将军。"
+    ]
+  },
+  {
+    "id": "wang-ji",
+    "name": "王基",
+    "aliases": [
+      "王伯舆",
+      "伯舆"
+    ],
+    "birth_year": 190,
+    "death_year": 261,
+    "active_year": 255,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "参与平定毌丘俭、诸葛诞等叛乱。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷27",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷27",
+      "quote": "王基字伯舆，东莱曲城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷27",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷27"
+      }
+    ],
+    "facts": [
+      "参与平定毌丘俭、诸葛诞等叛乱。"
+    ]
+  },
+  {
+    "id": "wang-ling",
+    "name": "王凌",
+    "aliases": [
+      "王彦云",
+      "彦云"
+    ],
+    "birth_year": 172,
+    "death_year": 251,
+    "active_year": 251,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "曹魏太尉，谋废曹芳，事泄后自杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "王凌字彦云，太原祁人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "曹魏太尉，谋废曹芳，事泄后自杀。"
+    ]
+  },
+  {
+    "id": "guanqiu-jian",
+    "name": "毌丘俭",
+    "aliases": [
+      "毌丘仲恭",
+      "仲恭"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "active_year": 255,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾远征高句丽，255年与文钦起兵反司马师。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "毌丘俭字仲恭，河东闻喜人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "曾远征高句丽，255年与文钦起兵反司马师。"
+    ]
+  },
+  {
+    "id": "zhuge-dan",
+    "name": "诸葛诞",
+    "aliases": [
+      "诸葛公休",
+      "公休"
+    ],
+    "birth_year": null,
+    "death_year": 258,
+    "active_year": 257,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "257年据寿春起兵反司马昭。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "诸葛诞战于东关，不利，乃令诞、俭对换。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "257年据寿春起兵反司马昭。"
+    ]
+  },
+  {
+    "id": "deng-ai",
+    "name": "邓艾",
+    "aliases": [
+      "邓士载",
+      "士载"
+    ],
+    "birth_year": 197,
+    "death_year": 264,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "263年由阴平进军，迫使蜀汉后主刘禅投降。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "邓艾字士载，义阳棘阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "263年由阴平进军，迫使蜀汉后主刘禅投降。"
+    ]
+  },
+  {
+    "id": "zhong-hui",
+    "name": "钟会",
+    "aliases": [
+      "锺会",
+      "钟士季",
+      "士季"
+    ],
+    "birth_year": 225,
+    "death_year": 264,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "钟繇之子，参与灭蜀，后在成都谋反被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "初，文王欲遣会伐蜀，西曹属邵悌求见曰：“今遣锺会率十馀万众伐蜀，愚谓会单身无重任，不若使馀人行。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "钟繇之子，参与灭蜀，后在成都谋反被杀。"
+    ]
+  },
+  {
+    "id": "hua-tuo",
+    "name": "华佗",
+    "aliases": [
+      "华元化",
+      "元化"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "医者"
+    ],
+    "summary": "沛国谯人，史书载其擅长医术及五禽之戏。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷29",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷29",
+      "quote": "华佗字元化，沛国谯人也，一名旉。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷29",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷29"
+      }
+    ],
+    "facts": [
+      "沛国谯人，史书载其擅长医术及五禽之戏。"
+    ]
+  },
+  {
+    "id": "guan-lu",
+    "name": "管辂",
+    "aliases": [
+      "管公明",
+      "公明"
+    ],
+    "birth_year": 209,
+    "death_year": 256,
+    "active_year": 250,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "术数家"
+    ],
+    "summary": "平原人，以占卜知名。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷29",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷29",
+      "quote": "”使君言：“骐骥今何在也？”孔曜言：“平原管辂字公明，年三十六，雅性宽大，与世无忌，可谓士雄。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷29",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷29"
+      }
+    ],
+    "facts": [
+      "平原人，以占卜知名。"
+    ]
+  },
+  {
+    "id": "liu-yan",
+    "name": "刘焉",
+    "aliases": [
+      "刘君郎",
+      "君郎"
+    ],
+    "birth_year": null,
+    "death_year": 194,
+    "active_year": 188,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "州牧"
+    ],
+    "summary": "汉室宗亲，188年出任益州牧；刘璋之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷31",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷31",
+      "quote": "刘焉字君郎，江夏竟陵人也，汉鲁恭王之后裔，章帝元和中徙封竟陵，支庶家焉。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷31"
+      }
+    ],
+    "facts": [
+      "汉室宗亲，188年出任益州牧。",
+      "刘璋之父。"
+    ]
+  },
+  {
+    "id": "liu-zhang",
+    "name": "刘璋",
+    "aliases": [
+      "刘季玉",
+      "季玉"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "州牧"
+    ],
+    "summary": "刘焉之子，继任益州牧，214年向刘备投降。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷31",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷31",
+      "quote": "〈张璠曰：刘璋愚弱而守善言，斯亦宋襄公、徐偃王之徒，未为无道之主也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷31"
+      }
+    ],
+    "facts": [
+      "刘焉之子，继任益州牧，214年向刘备投降。"
+    ]
+  },
+  {
+    "id": "liu-bei",
+    "name": "刘备",
+    "aliases": [
+      "刘玄德",
+      "玄德",
+      "汉昭烈帝",
+      "先主"
+    ],
+    "birth_year": 161,
+    "death_year": 223,
+    "active_year": 221,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "蜀汉"
+    ],
+    "roles": [
+      "皇帝",
+      "军事家"
+    ],
+    "summary": "涿郡涿县人，221年在成都称帝，建立蜀汉。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷32",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷32",
+      "quote": "谦病笃，谓别驾麋竺曰：“非刘备不能安此州也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷32",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷32"
+      }
+    ],
+    "facts": [
+      "涿郡涿县人，221年在成都称帝，建立蜀汉。"
+    ]
+  },
+  {
+    "id": "liu-shan",
+    "name": "刘禅",
+    "aliases": [
+      "刘公嗣",
+      "公嗣",
+      "阿斗",
+      "后主"
+    ],
+    "birth_year": 207,
+    "death_year": 271,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "刘备之子，蜀汉末代皇帝，263年向邓艾投降。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷33",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷33",
+      "quote": "〈《晋诸公赞》曰：刘禅乘骡车诣艾，不具亡国之礼。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷33",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷33"
+      }
+    ],
+    "facts": [
+      "刘备之子，蜀汉末代皇帝，263年向邓艾投降。"
+    ]
+  },
+  {
+    "id": "lady-gan",
+    "name": "甘夫人",
+    "aliases": [
+      "甘皇后",
+      "昭烈皇后"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 208,
+    "gender": "女",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "刘备之妾，刘禅之母，长坂时获赵云保护。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷34",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷34",
+      "quote": "先主甘皇后，沛人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷34"
+      }
+    ],
+    "facts": [
+      "刘备之妾，刘禅之母，长坂时获赵云保护。"
+    ]
+  },
+  {
+    "id": "empress-wu-shu",
+    "name": "吴皇后",
+    "aliases": [
+      "穆皇后",
+      "吴氏"
+    ],
+    "birth_year": null,
+    "death_year": 245,
+    "active_year": 221,
+    "gender": "女",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "吴懿之妹，先嫁刘瑁，后为刘备皇后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷34",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷34",
+      "quote": "先主穆皇后，陈留人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷34"
+      }
+    ],
+    "facts": [
+      "吴懿之妹，先嫁刘瑁，后为刘备皇后。"
+    ]
+  },
+  {
+    "id": "empress-zhang-elder",
+    "name": "敬哀张皇后",
+    "aliases": [
+      "敬哀皇后"
+    ],
+    "birth_year": null,
+    "death_year": 237,
+    "active_year": 223,
+    "gender": "女",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "张飞长女，刘禅第一任皇后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷34",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷34",
+      "quote": "母王贵人，本敬哀张皇后侍人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷34"
+      }
+    ],
+    "facts": [
+      "张飞长女，刘禅第一任皇后。"
+    ]
+  },
+  {
+    "id": "empress-zhang-younger",
+    "name": "张皇后",
+    "aliases": [
+      "后主张皇后"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 264,
+    "gender": "女",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "张飞之女，敬哀皇后之妹，后被立为刘禅皇后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷34",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷34",
+      "quote": "后主张皇后，前后敬哀之妹也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷34"
+      }
+    ],
+    "facts": [
+      "张飞之女，敬哀皇后之妹，后被立为刘禅皇后。"
+    ]
+  },
+  {
+    "id": "zhuge-liang",
+    "name": "诸葛亮",
+    "aliases": [
+      "诸葛孔明",
+      "孔明",
+      "卧龙",
+      "武乡侯"
+    ],
+    "birth_year": 181,
+    "death_year": 234,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "丞相",
+      "军事家"
+    ],
+    "summary": "刘备三顾茅庐延请，辅佐刘备刘禅，234年病逝五丈原。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷35",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷35",
+      "quote": "诸葛亮字孔明，琅邪阳都人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷35",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷35"
+      }
+    ],
+    "facts": [
+      "刘备三顾茅庐延请，辅佐刘备刘禅，234年病逝五丈原。"
+    ]
+  },
+  {
+    "id": "guan-yu",
+    "name": "关羽",
+    "aliases": [
+      "关云长",
+      "云长",
+      "长生",
+      "关公"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "长期追随刘备，219年发动襄樊战役，后被孙权军擒杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷36",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷36",
+      "quote": "关羽字云长，本字长生，河东解人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷36"
+      }
+    ],
+    "facts": [
+      "长期追随刘备，219年发动襄樊战役，后被孙权军擒杀。"
+    ]
+  },
+  {
+    "id": "zhang-fei",
+    "name": "张飞",
+    "aliases": [
+      "张益德",
+      "益德",
+      "张翼德",
+      "翼德"
+    ],
+    "birth_year": null,
+    "death_year": 221,
+    "active_year": 221,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "涿郡人，长期追随刘备，曾在长坂断后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷36",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷36",
+      "quote": "张飞字益德，涿郡人也，少与关羽俱事先主。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷36"
+      }
+    ],
+    "facts": [
+      "涿郡人，长期追随刘备，曾在长坂断后。"
+    ]
+  },
+  {
+    "id": "ma-chao",
+    "name": "马超",
+    "aliases": [
+      "马孟起",
+      "孟起"
+    ],
+    "birth_year": 176,
+    "death_year": 222,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "马腾之子，曾在关中抗曹，后归刘备。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷36",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷36",
+      "quote": "马超字孟起，右扶风茂陵人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷36"
+      }
+    ],
+    "facts": [
+      "马腾之子，曾在关中抗曹，后归刘备。"
+    ]
+  },
+  {
+    "id": "huang-zhong",
+    "name": "黄忠",
+    "aliases": [
+      "黄汉升",
+      "汉升"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾从刘表，后归刘备，在定军山战胜夏侯渊。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷36",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷36",
+      "quote": "黄忠字汉升，南阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷36"
+      }
+    ],
+    "facts": [
+      "曾从刘表，后归刘备，在定军山战胜夏侯渊。"
+    ]
+  },
+  {
+    "id": "zhao-yun",
+    "name": "赵云",
+    "aliases": [
+      "赵子龙",
+      "子龙"
+    ],
+    "birth_year": null,
+    "death_year": 229,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "常山真定人，长坂保护甘夫人与刘禅。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷36",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷36",
+      "quote": "赵云字子龙，常山真定人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷36"
+      }
+    ],
+    "facts": [
+      "常山真定人，长坂保护甘夫人与刘禅。"
+    ]
+  },
+  {
+    "id": "pang-tong",
+    "name": "庞统",
+    "aliases": [
+      "庞士元",
+      "士元",
+      "凤雏"
+    ],
+    "birth_year": 179,
+    "death_year": 214,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "刘备军师中郎将，进攻雒县时中流矢而死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷37",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷37",
+      "quote": "庞统字士元，襄阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷37",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷37"
+      }
+    ],
+    "facts": [
+      "刘备军师中郎将，进攻雒县时中流矢而死。"
+    ]
+  },
+  {
+    "id": "fa-zheng",
+    "name": "法正",
+    "aliases": [
+      "法孝直",
+      "孝直"
+    ],
+    "birth_year": 176,
+    "death_year": 220,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "谋士"
+    ],
+    "summary": "原为刘璋属官，后辅佐刘备夺取益州与汉中。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷37",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷37",
+      "quote": "法正字孝直，（右）扶风郿人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷37",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷37"
+      }
+    ],
+    "facts": [
+      "原为刘璋属官，后辅佐刘备夺取益州与汉中。"
+    ]
+  },
+  {
+    "id": "xu-jing",
+    "name": "许靖",
+    "aliases": [
+      "许文休",
+      "文休"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "active_year": 221,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾避乱江南，入蜀后任刘备司徒。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "许靖字文休，汝南平舆人。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "曾避乱江南，入蜀后任刘备司徒。"
+    ]
+  },
+  {
+    "id": "mi-zhu",
+    "name": "麋竺",
+    "aliases": [
+      "糜竺",
+      "麋子仲",
+      "子仲"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "东海朐人，资助刘备，麋夫人之兄。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "麋竺字子仲，东海朐人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "东海朐人，资助刘备，麋夫人之兄。"
+    ]
+  },
+  {
+    "id": "sun-qian",
+    "name": "孙乾",
+    "aliases": [
+      "孙公祐",
+      "公祐"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "刘备早期属官，曾出使袁绍、刘表。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "孙乾字公佑，北海人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "刘备早期属官，曾出使袁绍、刘表。"
+    ]
+  },
+  {
+    "id": "jian-yong",
+    "name": "简雍",
+    "aliases": [
+      "简宪和",
+      "宪和"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "刘备故交，曾劝刘璋向刘备投降。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "简雍字宪和，涿郡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "刘备故交，曾劝刘璋向刘备投降。"
+    ]
+  },
+  {
+    "id": "yi-ji",
+    "name": "伊籍",
+    "aliases": [
+      "伊机伯",
+      "机伯"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 221,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾依刘表，后辅佐刘备，参与制定蜀科。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "伊籍字机伯，山阳人。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "曾依刘表，后辅佐刘备，参与制定蜀科。"
+    ]
+  },
+  {
+    "id": "qin-mi",
+    "name": "秦宓",
+    "aliases": [
+      "秦子敕",
+      "子敕"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "active_year": 224,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员",
+      "学者"
+    ],
+    "summary": "广汉绵竹人，曾与吴使张温问答。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷38",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷38",
+      "quote": "秦宓字子敕，广汉绵竹人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷38",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷38"
+      }
+    ],
+    "facts": [
+      "广汉绵竹人，曾与吴使张温问答。"
+    ]
+  },
+  {
+    "id": "dong-he",
+    "name": "董和",
+    "aliases": [
+      "董幼宰",
+      "幼宰"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾仕刘璋，后与诸葛亮共署左将军府事；董允之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷39",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷39",
+      "quote": "董和字幼宰，南郡枝江人也，其先本巴郡江州人。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷39",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷39"
+      }
+    ],
+    "facts": [
+      "曾仕刘璋，后与诸葛亮共署左将军府事。",
+      "董允之父。"
+    ]
+  },
+  {
+    "id": "liu-ba",
+    "name": "刘巴",
+    "aliases": [
+      "刘子初",
+      "子初"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "active_year": 221,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "刘备尚书令，参与制定蜀科。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷39",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷39",
+      "quote": "刘巴字子初，零陵烝阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷39",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷39"
+      }
+    ],
+    "facts": [
+      "刘备尚书令，参与制定蜀科。"
+    ]
+  },
+  {
+    "id": "ma-liang",
+    "name": "马良",
+    "aliases": [
+      "马季常",
+      "季常"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "襄阳宜城人，眉中有白毛，出使五溪蛮。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷39",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷39",
+      "quote": "马良字季常，襄阳宜城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷39",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷39"
+      }
+    ],
+    "facts": [
+      "襄阳宜城人，眉中有白毛，出使五溪蛮。"
+    ]
+  },
+  {
+    "id": "dong-yun",
+    "name": "董允",
+    "aliases": [
+      "董休昭",
+      "休昭"
+    ],
+    "birth_year": null,
+    "death_year": 246,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "蜀汉侍中，以匡正刘禅、约束黄皓著称。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷39",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷39",
+      "quote": "董允字休昭，掌军中郎将和之子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷39",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷39"
+      }
+    ],
+    "facts": [
+      "蜀汉侍中，以匡正刘禅、约束黄皓著称。"
+    ]
+  },
+  {
+    "id": "liu-feng",
+    "name": "刘封",
+    "aliases": [],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "刘备养子，与孟达取上庸，后被刘备赐死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "刘封者，本罗侯寇氏之子，长沙刘氏之甥也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "刘备养子，与孟达取上庸，后被刘备赐死。"
+    ]
+  },
+  {
+    "id": "peng-yang",
+    "name": "彭羕",
+    "aliases": [
+      "彭永年",
+      "永年"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾为刘备谋划，后因言获罪被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "彭羕字永年，广汉人。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "曾为刘备谋划，后因言获罪被杀。"
+    ]
+  },
+  {
+    "id": "liao-li",
+    "name": "廖立",
+    "aliases": [
+      "廖公渊",
+      "公渊"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 223,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾任长沙太守，后被诸葛亮废为庶民。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "廖立〈廖音理救反。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "曾任长沙太守，后被诸葛亮废为庶民。"
+    ]
+  },
+  {
+    "id": "li-yan",
+    "name": "李严",
+    "aliases": [
+      "李正方",
+      "正方",
+      "李平"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "active_year": 231,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "受刘备托孤，后因军粮运输事获罪被废。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "李严字正方，南阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "受刘备托孤，后因军粮运输事获罪被废。"
+    ]
+  },
+  {
+    "id": "wei-yan",
+    "name": "魏延",
+    "aliases": [
+      "魏文长",
+      "文长"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "任汉中太守，随诸葛亮北伐，亮死后与杨仪争权被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "魏延字文长，义阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "任汉中太守，随诸葛亮北伐，亮死后与杨仪争权被杀。"
+    ]
+  },
+  {
+    "id": "yang-yi",
+    "name": "杨仪",
+    "aliases": [
+      "杨威公",
+      "威公"
+    ],
+    "birth_year": null,
+    "death_year": 235,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "诸葛亮长史，诸葛亮死后率军撤退，与魏延冲突。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "杨仪字威公，襄阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "诸葛亮长史，诸葛亮死后率军撤退，与魏延冲突。"
+    ]
+  },
+  {
+    "id": "huo-jun",
+    "name": "霍峻",
+    "aliases": [
+      "霍仲邈",
+      "仲邈"
+    ],
+    "birth_year": 177,
+    "death_year": 216,
+    "active_year": 214,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "随刘备入蜀，曾以少量军队守住葭萌城。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷41",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷41",
+      "quote": "霍峻字仲邈，南郡枝江人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷41",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷41"
+      }
+    ],
+    "facts": [
+      "随刘备入蜀，曾以少量军队守住葭萌城。"
+    ]
+  },
+  {
+    "id": "xiang-lang",
+    "name": "向朗",
+    "aliases": [
+      "向巨达",
+      "巨达"
+    ],
+    "birth_year": null,
+    "death_year": 247,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "任蜀汉长史，晚年潜心典籍。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷41",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷41",
+      "quote": "向朗字巨达，襄阳宜城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷41",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷41"
+      }
+    ],
+    "facts": [
+      "任蜀汉长史，晚年潜心典籍。"
+    ]
+  },
+  {
+    "id": "zhang-yi-official",
+    "name": "张裔",
+    "aliases": [
+      "张君嗣",
+      "君嗣"
+    ],
+    "birth_year": 167,
+    "death_year": 230,
+    "active_year": 225,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾被雍闿送往孙吴，后归蜀，任丞相长史。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷41",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷41",
+      "quote": "张裔字君嗣，蜀郡成都人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷41",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷41"
+      }
+    ],
+    "facts": [
+      "曾被雍闿送往孙吴，后归蜀，任丞相长史。"
+    ]
+  },
+  {
+    "id": "fei-shi",
+    "name": "费诗",
+    "aliases": [
+      "费公举",
+      "公举"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "奉刘备之命授关羽前将军，曾劝阻刘备称帝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷41",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷41",
+      "quote": "费诗字公举，犍为南安人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷41",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷41"
+      }
+    ],
+    "facts": [
+      "奉刘备之命授关羽前将军，曾劝阻刘备称帝。"
+    ]
+  },
+  {
+    "id": "qiao-zhou",
+    "name": "谯周",
+    "aliases": [
+      "谯允南",
+      "允南"
+    ],
+    "birth_year": 201,
+    "death_year": 270,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "西晋"
+    ],
+    "roles": [
+      "学者"
+    ],
+    "summary": "蜀汉学者，263年劝刘禅降魏；陈寿曾从其学习。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷42",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷42",
+      "quote": "谯周字允南，巴西西充国人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷42",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷42"
+      }
+    ],
+    "facts": [
+      "蜀汉学者，263年劝刘禅降魏。",
+      "陈寿曾从其学习。"
+    ]
+  },
+  {
+    "id": "xi-zheng",
+    "name": "郤正",
+    "aliases": [
+      "郤令先",
+      "令先"
+    ],
+    "birth_year": null,
+    "death_year": 278,
+    "active_year": 264,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "西晋"
+    ],
+    "roles": [
+      "官员",
+      "文学家"
+    ],
+    "summary": "蜀汉秘书令，蜀亡后随刘禅迁洛阳。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷42",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷42",
+      "quote": "郤正字令先，河南偃师人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷42",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷42"
+      }
+    ],
+    "facts": [
+      "蜀汉秘书令，蜀亡后随刘禅迁洛阳。"
+    ]
+  },
+  {
+    "id": "huang-quan",
+    "name": "黄权",
+    "aliases": [
+      "黄公衡",
+      "公衡"
+    ],
+    "birth_year": null,
+    "death_year": 240,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "曹魏"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "劝刘璋防备刘备，后仕刘备，夷陵战后降魏。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "黄权，字公衡，巴西阆中人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "劝刘璋防备刘备，后仕刘备，夷陵战后降魏。"
+    ]
+  },
+  {
+    "id": "li-hui",
+    "name": "李恢",
+    "aliases": [
+      "李德昂",
+      "德昂"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "active_year": 225,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "建宁俞元人，参与诸葛亮南征。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "李恢字德昂，建宁俞元人也，仕郡督邮，姑夫爨习为建伶令，有违犯之事，恢坐习免官。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "建宁俞元人，参与诸葛亮南征。"
+    ]
+  },
+  {
+    "id": "lv-kai",
+    "name": "吕凯",
+    "aliases": [
+      "吕季平",
+      "季平"
+    ],
+    "birth_year": null,
+    "death_year": 225,
+    "active_year": 225,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "永昌不韦人，抵御雍闿反叛，守住永昌。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "吕凯字季平，永昌不韦人也，〈孙盛《蜀世谱 》曰：初，秦徙吕不韦子弟宗族于蜀汉。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "永昌不韦人，抵御雍闿反叛，守住永昌。"
+    ]
+  },
+  {
+    "id": "ma-zhong-shu",
+    "name": "马忠",
+    "aliases": [
+      "马德信",
+      "德信"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "active_year": 230,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "巴西阆中人，蜀汉将领，曾任庲降都督。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "马忠字德信，巴西阆中人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "巴西阆中人，蜀汉将领，曾任庲降都督。"
+    ]
+  },
+  {
+    "id": "wang-ping",
+    "name": "王平",
+    "aliases": [
+      "王子均",
+      "子均"
+    ],
+    "birth_year": null,
+    "death_year": 248,
+    "active_year": 244,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾属曹操，后归刘备，244年抵御曹爽进攻汉中。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "王平字子均，巴西宕渠人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "曾属曹操，后归刘备，244年抵御曹爽进攻汉中。"
+    ]
+  },
+  {
+    "id": "zhang-ni",
+    "name": "张嶷",
+    "aliases": [
+      "张伯岐",
+      "伯岐"
+    ],
+    "birth_year": null,
+    "death_year": 254,
+    "active_year": 254,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "曾任越嶲太守，随姜维北伐战死。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷43",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷43",
+      "quote": "张嶷字伯岐，巴郡南充国人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷43"
+      }
+    ],
+    "facts": [
+      "曾任越嶲太守，随姜维北伐战死。"
+    ]
+  },
+  {
+    "id": "jiang-wan",
+    "name": "蒋琬",
+    "aliases": [
+      "蒋公琰",
+      "公琰"
+    ],
+    "birth_year": null,
+    "death_year": 246,
+    "active_year": 235,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "诸葛亮死后主掌蜀汉政务，官至大司马。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷44",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷44",
+      "quote": "蒋琬字公琰，零陵湘乡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷44",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷44"
+      }
+    ],
+    "facts": [
+      "诸葛亮死后主掌蜀汉政务，官至大司马。"
+    ]
+  },
+  {
+    "id": "fei-yi",
+    "name": "费祎",
+    "aliases": [
+      "费文伟",
+      "文伟"
+    ],
+    "birth_year": null,
+    "death_year": 253,
+    "active_year": 244,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "继蒋琬主政蜀汉，253年遭郭循刺杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷44",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷44",
+      "quote": "费祎字文伟，江夏𫑡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷44",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷44"
+      }
+    ],
+    "facts": [
+      "继蒋琬主政蜀汉，253年遭郭循刺杀。"
+    ]
+  },
+  {
+    "id": "jiang-wei",
+    "name": "姜维",
+    "aliases": [
+      "姜伯约",
+      "伯约"
+    ],
+    "birth_year": 202,
+    "death_year": 264,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "原仕魏，后归诸葛亮，蜀汉大将军，多次北伐。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷44",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷44",
+      "quote": "于是遣尚书令费祎、中监军姜维等喻指。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷44",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷44"
+      }
+    ],
+    "facts": [
+      "原仕魏，后归诸葛亮，蜀汉大将军，多次北伐。"
+    ]
+  },
+  {
+    "id": "deng-zhi",
+    "name": "邓芝",
+    "aliases": [
+      "邓伯苗",
+      "伯苗"
+    ],
+    "birth_year": 178,
+    "death_year": 251,
+    "active_year": 223,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "出使孙吴，促成蜀吴重新结盟。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "邓芝字伯苗，义阳新野人，汉司徒禹之后也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "出使孙吴，促成蜀吴重新结盟。"
+    ]
+  },
+  {
+    "id": "zhang-yi",
+    "name": "张翼",
+    "aliases": [
+      "张伯恭",
+      "伯恭"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "蜀汉将领，曾任庲降都督，蜀亡后死于成都之乱。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "张翼字伯恭，犍为武阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "蜀汉将领，曾任庲降都督，蜀亡后死于成都之乱。"
+    ]
+  },
+  {
+    "id": "zong-yu",
+    "name": "宗预",
+    "aliases": [
+      "宗德艳",
+      "德艳"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "蜀汉使臣，曾多次出使孙吴。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "宗预字德艳，南阳安众人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "蜀汉使臣，曾多次出使孙吴。"
+    ]
+  },
+  {
+    "id": "liao-hua",
+    "name": "廖化",
+    "aliases": [
+      "廖元俭",
+      "元俭",
+      "廖淳"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "active_year": 234,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "关羽旧部，蜀汉后期将领，蜀亡后去世。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "廖化字元俭，本名淳，襄阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "关羽旧部，蜀汉后期将领，蜀亡后去世。"
+    ]
+  },
+  {
+    "id": "yang-xi",
+    "name": "杨戏",
+    "aliases": [
+      "杨文然",
+      "文然"
+    ],
+    "birth_year": null,
+    "death_year": 261,
+    "active_year": 241,
+    "gender": "男",
+    "factions": [
+      "蜀汉"
+    ],
+    "roles": [
+      "官员",
+      "文学家"
+    ],
+    "summary": "撰写《季汉辅臣赞》记录蜀汉人物。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "杨戏字文然，犍为武阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "撰写《季汉辅臣赞》记录蜀汉人物。"
+    ]
+  },
+  {
+    "id": "sun-jian",
+    "name": "孙坚",
+    "aliases": [
+      "孙文台",
+      "文台",
+      "武烈皇帝"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 190,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "孙吴"
+    ],
+    "roles": [
+      "武将",
+      "军阀"
+    ],
+    "summary": "参与镇压黄巾与讨伐董卓，孙策、孙权之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷46",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷46",
+      "quote": "孙坚 字文臺，吴郡 富春人，盖孙武 之後也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷46",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷46"
+      }
+    ],
+    "facts": [
+      "参与镇压黄巾与讨伐董卓，孙策、孙权之父。"
+    ]
+  },
+  {
+    "id": "sun-ce",
+    "name": "孙策",
+    "aliases": [
+      "孙伯符",
+      "伯符"
+    ],
+    "birth_year": 175,
+    "death_year": 200,
+    "active_year": 199,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "军阀"
+    ],
+    "summary": "孙坚长子，奠定孙氏江东基业。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷46",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷46",
+      "quote": "策字伯符。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷46",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷46"
+      }
+    ],
+    "facts": [
+      "孙坚长子，奠定孙氏江东基业。"
+    ]
+  },
+  {
+    "id": "sun-quan",
+    "name": "孙权",
+    "aliases": [
+      "孙仲谋",
+      "仲谋",
+      "吴大帝"
+    ],
+    "birth_year": 182,
+    "death_year": 252,
+    "active_year": 229,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "孙坚之子，承继孙策基业，229年称帝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷47",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷47",
+      "quote": "孙权，字仲谋。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷47",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷47"
+      }
+    ],
+    "facts": [
+      "孙坚之子，承继孙策基业，229年称帝。"
+    ]
+  },
+  {
+    "id": "sun-liang",
+    "name": "孙亮",
+    "aliases": [
+      "孙子明",
+      "子明"
+    ],
+    "birth_year": 243,
+    "death_year": 260,
+    "active_year": 252,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "孙权之子，继位后被孙綝废黜。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷48",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷48",
+      "quote": "孙亮字子明，权少子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷48",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷48"
+      }
+    ],
+    "facts": [
+      "孙权之子，继位后被孙綝废黜。"
+    ]
+  },
+  {
+    "id": "sun-xiu",
+    "name": "孙休",
+    "aliases": [
+      "孙子烈",
+      "子烈",
+      "吴景帝"
+    ],
+    "birth_year": 235,
+    "death_year": 264,
+    "active_year": 258,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "孙权之子，258年即位并诛杀孙綝。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷48",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷48",
+      "quote": "孙休字子烈，权第六子。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷48",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷48"
+      }
+    ],
+    "facts": [
+      "孙权之子，258年即位并诛杀孙綝。"
+    ]
+  },
+  {
+    "id": "sun-hao",
+    "name": "孙皓",
+    "aliases": [
+      "孙元宗",
+      "元宗",
+      "孙彭祖"
+    ],
+    "birth_year": 242,
+    "death_year": 284,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "孙吴",
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "孙和之子，孙吴末代皇帝，280年降晋。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷48",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷48",
+      "quote": "〉己丑，封孙皓为乌程侯，皓弟德钱唐侯，谦永安侯。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷48",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷48"
+      }
+    ],
+    "facts": [
+      "孙和之子，孙吴末代皇帝，280年降晋。"
+    ]
+  },
+  {
+    "id": "liu-yao",
+    "name": "刘繇",
+    "aliases": [
+      "刘正礼",
+      "正礼"
+    ],
+    "birth_year": 157,
+    "death_year": 198,
+    "active_year": 195,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "州牧"
+    ],
+    "summary": "汉室宗亲，扬州牧，与孙策争夺江东。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷49",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷49",
+      "quote": "刘繇，字正礼，东莱牟平人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷49"
+      }
+    ],
+    "facts": [
+      "汉室宗亲，扬州牧，与孙策争夺江东。"
+    ]
+  },
+  {
+    "id": "taishi-ci",
+    "name": "太史慈",
+    "aliases": [
+      "太史子义",
+      "子义"
+    ],
+    "birth_year": 166,
+    "death_year": 206,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "东莱黄县人，曾救援孔融，后归孙策。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷49",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷49",
+      "quote": "太史慈字子义，东莱黄人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷49"
+      }
+    ],
+    "facts": [
+      "东莱黄县人，曾救援孔融，后归孙策。"
+    ]
+  },
+  {
+    "id": "shi-xie",
+    "name": "士燮",
+    "aliases": [
+      "士威彦",
+      "威彦"
+    ],
+    "birth_year": 137,
+    "death_year": 226,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "长期任交趾太守，后向孙权称臣。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷49",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷49",
+      "quote": "士燮字威彦，苍梧广信人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷49"
+      }
+    ],
+    "facts": [
+      "长期任交趾太守，后向孙权称臣。"
+    ]
+  },
+  {
+    "id": "lady-wu",
+    "name": "吴夫人",
+    "aliases": [
+      "武烈皇后",
+      "孙坚吴夫人"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 190,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "孙坚之妻，孙策、孙权等人的母亲。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "孙破虏吴夫人，吴主权母也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "孙坚之妻，孙策、孙权等人的母亲。"
+    ]
+  },
+  {
+    "id": "lady-bu",
+    "name": "步夫人",
+    "aliases": [
+      "步氏",
+      "步皇后"
+    ],
+    "birth_year": null,
+    "death_year": 238,
+    "active_year": 229,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "孙权夫人，孙鲁班与孙鲁育之母。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "吴主权步夫人，临淮淮阴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "孙权夫人，孙鲁班与孙鲁育之母。"
+    ]
+  },
+  {
+    "id": "sun-luban",
+    "name": "孙鲁班",
+    "aliases": [
+      "大虎",
+      "全公主"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 250,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "公主"
+    ],
+    "summary": "孙权与步夫人之女，嫁全琮，参与吴宫廷政治。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "生二女，长曰鲁班，字大虎，前配周瑜子循，后配全琮。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "孙权与步夫人之女，嫁全琮，参与吴宫廷政治。"
+    ]
+  },
+  {
+    "id": "sun-luyu",
+    "name": "孙鲁育",
+    "aliases": [
+      "小虎",
+      "朱公主"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "active_year": 250,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "公主"
+    ],
+    "summary": "孙权与步夫人之女，曾嫁朱据，孙峻时被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "少曰鲁育，字小虎，前配朱据，后配刘纂。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "孙权与步夫人之女，曾嫁朱据，孙峻时被杀。"
+    ]
+  },
+  {
+    "id": "empress-pan",
+    "name": "潘皇后",
+    "aliases": [
+      "潘夫人",
+      "潘氏"
+    ],
+    "birth_year": null,
+    "death_year": 252,
+    "active_year": 251,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "孙权皇后，孙亮之母。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "吴主权潘夫人，会稽句章人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "孙权皇后，孙亮之母。"
+    ]
+  },
+  {
+    "id": "empress-quan",
+    "name": "全皇后",
+    "aliases": [
+      "全夫人",
+      "全氏"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 258,
+    "gender": "女",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "全尚之女，孙亮皇后。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷50",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷50",
+      "quote": "孙亮全夫人，全尚女也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷50",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷50"
+      }
+    ],
+    "facts": [
+      "全尚之女，孙亮皇后。"
+    ]
+  },
+  {
+    "id": "zhang-zhao",
+    "name": "张昭",
+    "aliases": [
+      "张子布",
+      "子布"
+    ],
+    "birth_year": 156,
+    "death_year": 236,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "孙策重臣，受托辅佐孙权。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷52",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷52",
+      "quote": "张昭字子布，彭城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷52",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷52"
+      }
+    ],
+    "facts": [
+      "孙策重臣，受托辅佐孙权。"
+    ]
+  },
+  {
+    "id": "gu-yong",
+    "name": "顾雍",
+    "aliases": [
+      "顾元叹",
+      "元叹"
+    ],
+    "birth_year": 168,
+    "death_year": 243,
+    "active_year": 229,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "丞相"
+    ],
+    "summary": "吴郡吴县人，长期任孙吴丞相。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷52",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷52",
+      "quote": "顾雍字元叹，吴郡吴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷52",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷52"
+      }
+    ],
+    "facts": [
+      "吴郡吴县人，长期任孙吴丞相。"
+    ]
+  },
+  {
+    "id": "zhuge-jin",
+    "name": "诸葛瑾",
+    "aliases": [
+      "诸葛子瑜",
+      "子瑜"
+    ],
+    "birth_year": 174,
+    "death_year": 241,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "诸葛亮之兄，仕孙权，官至大将军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷52",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷52",
+      "quote": "诸葛瑾字子瑜，琅邪阳都人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷52",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷52"
+      }
+    ],
+    "facts": [
+      "诸葛亮之兄，仕孙权，官至大将军。"
+    ]
+  },
+  {
+    "id": "bu-zhi",
+    "name": "步骘",
+    "aliases": [
+      "步子山",
+      "子山"
+    ],
+    "birth_year": null,
+    "death_year": 247,
+    "active_year": 246,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "曾任交州刺史，后任孙吴丞相。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷52",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷52",
+      "quote": "步骘字子山，临淮淮阴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷52",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷52"
+      }
+    ],
+    "facts": [
+      "曾任交州刺史，后任孙吴丞相。"
+    ]
+  },
+  {
+    "id": "zhang-hong",
+    "name": "张纮",
+    "aliases": [
+      "张子纲",
+      "子纲"
+    ],
+    "birth_year": 153,
+    "death_year": 212,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "孙策谋臣，后辅佐孙权，建议经营秣陵。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷53",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷53",
+      "quote": "张纮字子纲，广陵人。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷53",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷53"
+      }
+    ],
+    "facts": [
+      "孙策谋臣，后辅佐孙权，建议经营秣陵。"
+    ]
+  },
+  {
+    "id": "yan-jun",
+    "name": "严畯",
+    "aliases": [
+      "严曼才",
+      "曼才"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 229,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员",
+      "学者"
+    ],
+    "summary": "彭城人，通晓经学，曾辞让接替鲁肃统军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷53",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷53",
+      "quote": "严畯字曼才，彭城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷53",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷53"
+      }
+    ],
+    "facts": [
+      "彭城人，通晓经学，曾辞让接替鲁肃统军。"
+    ]
+  },
+  {
+    "id": "kan-ze",
+    "name": "阚泽",
+    "aliases": [
+      "阚德润",
+      "德润"
+    ],
+    "birth_year": null,
+    "death_year": 243,
+    "active_year": 229,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员",
+      "学者"
+    ],
+    "summary": "会稽山阴人，孙吴经学家，任太子太傅。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷53",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷53",
+      "quote": "阚泽字德润，会稽山阴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷53",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷53"
+      }
+    ],
+    "facts": [
+      "会稽山阴人，孙吴经学家，任太子太傅。"
+    ]
+  },
+  {
+    "id": "xue-zong",
+    "name": "薛综",
+    "aliases": [
+      "薛敬文",
+      "敬文"
+    ],
+    "birth_year": null,
+    "death_year": 243,
+    "active_year": 230,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员",
+      "文学家"
+    ],
+    "summary": "沛郡竹邑人，曾任合浦、交趾太守。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷53",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷53",
+      "quote": "薛综字敬文，沛郡竹邑人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷53",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷53"
+      }
+    ],
+    "facts": [
+      "沛郡竹邑人，曾任合浦、交趾太守。"
+    ]
+  },
+  {
+    "id": "zhou-yu",
+    "name": "周瑜",
+    "aliases": [
+      "周公瑾",
+      "公瑾"
+    ],
+    "birth_year": 175,
+    "death_year": 210,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "孙吴统帅，与刘备军共同在赤壁击败曹操。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷54",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷54",
+      "quote": "周瑜字公瑾，庐江舒人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷54",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷54"
+      }
+    ],
+    "facts": [
+      "孙吴统帅，与刘备军共同在赤壁击败曹操。"
+    ]
+  },
+  {
+    "id": "lu-su",
+    "name": "鲁肃",
+    "aliases": [
+      "鲁子敬",
+      "子敬"
+    ],
+    "birth_year": 172,
+    "death_year": 217,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "谋士",
+      "武将"
+    ],
+    "summary": "提出孙刘合作抗曹，继周瑜统军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷54",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷54",
+      "quote": "鲁肃字子敬，临淮东城人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷54",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷54"
+      }
+    ],
+    "facts": [
+      "提出孙刘合作抗曹，继周瑜统军。"
+    ]
+  },
+  {
+    "id": "lv-meng",
+    "name": "吕蒙",
+    "aliases": [
+      "吕子明",
+      "子明"
+    ],
+    "birth_year": 178,
+    "death_year": 220,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "继鲁肃统军，219年袭取关羽所据荆州。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷54",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷54",
+      "quote": "吕蒙字子明，汝南富陂人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷54",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷54"
+      }
+    ],
+    "facts": [
+      "继鲁肃统军，219年袭取关羽所据荆州。"
+    ]
+  },
+  {
+    "id": "cheng-pu",
+    "name": "程普",
+    "aliases": [
+      "程德谋",
+      "德谋"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "先后追随孙坚、孙策、孙权，与周瑜共同领军抗曹。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "程普字德谋，右北平土垠人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "先后追随孙坚、孙策、孙权，与周瑜共同领军抗曹。"
+    ]
+  },
+  {
+    "id": "huang-gai",
+    "name": "黄盖",
+    "aliases": [
+      "黄公覆",
+      "公覆"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 208,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "历仕孙氏三代，在赤壁之战提出火攻并率船进攻。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "黄盖字公覆，零陵泉陵人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "历仕孙氏三代，在赤壁之战提出火攻并率船进攻。"
+    ]
+  },
+  {
+    "id": "han-dang",
+    "name": "韩当",
+    "aliases": [
+      "韩义公",
+      "义公"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "孙坚旧将，参与赤壁与夷陵之战。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "韩当字义公，辽西令支人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "孙坚旧将，参与赤壁与夷陵之战。"
+    ]
+  },
+  {
+    "id": "jiang-qin",
+    "name": "蒋钦",
+    "aliases": [
+      "蒋公奕",
+      "公奕"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "孙策部将，后参与孙权征荆州。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "蒋钦字公弈，九江寿春人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "孙策部将，后参与孙权征荆州。"
+    ]
+  },
+  {
+    "id": "zhou-tai",
+    "name": "周泰",
+    "aliases": [
+      "周幼平",
+      "幼平"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "孙权部将，曾保护孙权身受多处创伤。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "周泰字幼平，九江下蔡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "孙权部将，曾保护孙权身受多处创伤。"
+    ]
+  },
+  {
+    "id": "gan-ning",
+    "name": "甘宁",
+    "aliases": [
+      "甘兴霸",
+      "兴霸"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "巴郡临江人，曾从黄祖，后归孙权。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "甘宁字兴霸，巴郡临江人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "巴郡临江人，曾从黄祖，后归孙权。"
+    ]
+  },
+  {
+    "id": "ling-tong",
+    "name": "凌统",
+    "aliases": [
+      "凌公绩",
+      "公绩"
+    ],
+    "birth_year": 189,
+    "death_year": null,
+    "active_year": 215,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "凌操之子，逍遥津之战保护孙权突围。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "凌统字公绩，吴郡馀杭人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "凌操之子，逍遥津之战保护孙权突围。"
+    ]
+  },
+  {
+    "id": "xu-sheng",
+    "name": "徐盛",
+    "aliases": [
+      "徐文向",
+      "文向"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 224,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "224年在长江沿岸设置疑城以退魏军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "徐盛字文向，琅邪莒人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "224年在长江沿岸设置疑城以退魏军。"
+    ]
+  },
+  {
+    "id": "pan-zhang",
+    "name": "潘璋",
+    "aliases": [
+      "潘文珪",
+      "文珪"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "active_year": 219,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "219年部将马忠擒获关羽。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "潘璋字文珪，东郡发干人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "219年部将马忠擒获关羽。"
+    ]
+  },
+  {
+    "id": "ding-feng",
+    "name": "丁奉",
+    "aliases": [
+      "丁承渊",
+      "承渊"
+    ],
+    "birth_year": null,
+    "death_year": 271,
+    "active_year": 252,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "孙吴后期将领，东兴之战率军破魏。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷55",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+      "quote": "丁奉字承渊，庐江安丰人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷55"
+      }
+    ],
+    "facts": [
+      "孙吴后期将领，东兴之战率军破魏。"
+    ]
+  },
+  {
+    "id": "zhu-zhi",
+    "name": "朱治",
+    "aliases": [
+      "朱君理",
+      "君理"
+    ],
+    "birth_year": 156,
+    "death_year": 224,
+    "active_year": 200,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "孙坚旧部，扶助孙策经营江东，任吴郡太守。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷56",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷56",
+      "quote": "朱治字君理，丹杨故鄣人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷56",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷56"
+      }
+    ],
+    "facts": [
+      "孙坚旧部，扶助孙策经营江东，任吴郡太守。"
+    ]
+  },
+  {
+    "id": "zhu-ran",
+    "name": "朱然",
+    "aliases": [
+      "朱义封",
+      "义封",
+      "施然"
+    ],
+    "birth_year": 182,
+    "death_year": 249,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "朱治养子，曾守江陵抵抗曹魏大军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷56",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷56",
+      "quote": "朱然字义封，治姊子也，本姓施氏。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷56",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷56"
+      }
+    ],
+    "facts": [
+      "朱治养子，曾守江陵抵抗曹魏大军。"
+    ]
+  },
+  {
+    "id": "lv-fan",
+    "name": "吕范",
+    "aliases": [
+      "吕子衡",
+      "子衡"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "孙策旧臣，后为孙权大司马。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷56",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷56",
+      "quote": "吕范字子衡，汝南细阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷56",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷56"
+      }
+    ],
+    "facts": [
+      "孙策旧臣，后为孙权大司马。"
+    ]
+  },
+  {
+    "id": "zhu-huan",
+    "name": "朱桓",
+    "aliases": [
+      "朱休穆",
+      "休穆"
+    ],
+    "birth_year": 177,
+    "death_year": 238,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "吴郡吴县人，曾在濡须抵御曹魏军队。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷56",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷56",
+      "quote": "朱桓字休穆，吴郡吴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷56",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷56"
+      }
+    ],
+    "facts": [
+      "吴郡吴县人，曾在濡须抵御曹魏军队。"
+    ]
+  },
+  {
+    "id": "yu-fan",
+    "name": "虞翻",
+    "aliases": [
+      "虞仲翔",
+      "仲翔"
+    ],
+    "birth_year": 164,
+    "death_year": 233,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "学者",
+      "官员"
+    ],
+    "summary": "会稽余姚人，经学家，晚年被孙权流放交州。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷57",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷57",
+      "quote": "虞翻字仲翔，会稽馀姚人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷57",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷57"
+      }
+    ],
+    "facts": [
+      "会稽余姚人，经学家，晚年被孙权流放交州。"
+    ]
+  },
+  {
+    "id": "lu-ji-scholar",
+    "name": "陆绩",
+    "aliases": [
+      "陆公纪",
+      "公纪"
+    ],
+    "birth_year": 188,
+    "death_year": 219,
+    "active_year": 210,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "学者",
+      "官员"
+    ],
+    "summary": "陆康之子，博学多识，曾任郁林太守。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷57",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷57",
+      "quote": "陆绩字公纪，吴郡吴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷57",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷57"
+      }
+    ],
+    "facts": [
+      "陆康之子，博学多识，曾任郁林太守。"
+    ]
+  },
+  {
+    "id": "zhang-wen",
+    "name": "张温",
+    "aliases": [
+      "张惠恕",
+      "惠恕"
+    ],
+    "birth_year": 193,
+    "death_year": 230,
+    "active_year": 224,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "吴郡吴县人，224年出使蜀汉。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷57",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷57",
+      "quote": "张温字惠恕，吴郡吴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷57",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷57"
+      }
+    ],
+    "facts": [
+      "吴郡吴县人，224年出使蜀汉。"
+    ]
+  },
+  {
+    "id": "luo-tong",
+    "name": "骆统",
+    "aliases": [
+      "骆公绪",
+      "公绪"
+    ],
+    "birth_year": 193,
+    "death_year": 228,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "孙权属官，曾参与抵御刘备。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷57",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷57",
+      "quote": "骆统字公绪，会稽乌伤人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷57",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷57"
+      }
+    ],
+    "facts": [
+      "孙权属官，曾参与抵御刘备。"
+    ]
+  },
+  {
+    "id": "lu-xun",
+    "name": "陆逊",
+    "aliases": [
+      "陆伯言",
+      "伯言"
+    ],
+    "birth_year": 183,
+    "death_year": 245,
+    "active_year": 222,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将",
+      "丞相"
+    ],
+    "summary": "夷陵之战击败刘备，后任孙吴丞相；陆抗之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷58",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷58",
+      "quote": "陆逊字伯言，吴郡吴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷58",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷58"
+      }
+    ],
+    "facts": [
+      "夷陵之战击败刘备，后任孙吴丞相。",
+      "陆抗之父。"
+    ]
+  },
+  {
+    "id": "lu-kang",
+    "name": "陆抗",
+    "aliases": [
+      "陆幼节",
+      "幼节"
+    ],
+    "birth_year": 226,
+    "death_year": 274,
+    "active_year": 272,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "陆逊之子，272年平定步阐之乱并抗击晋军。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷58",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷58",
+      "quote": "陆抗每告其边戍曰：“彼专为德，我专为暴，是不战而自服也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷58",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷58"
+      }
+    ],
+    "facts": [
+      "陆逊之子，272年平定步阐之乱并抗击晋军。"
+    ]
+  },
+  {
+    "id": "he-qi",
+    "name": "贺齐",
+    "aliases": [
+      "贺公苗",
+      "公苗"
+    ],
+    "birth_year": null,
+    "death_year": 227,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "会稽山阴人，长期参与孙吴对山越的军事行动。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷60",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷60",
+      "quote": "贺齐字公苗，会稽山阴人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷60",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷60"
+      }
+    ],
+    "facts": [
+      "会稽山阴人，长期参与孙吴对山越的军事行动。"
+    ]
+  },
+  {
+    "id": "quan-cong",
+    "name": "全琮",
+    "aliases": [
+      "全子璜",
+      "子璜"
+    ],
+    "birth_year": 198,
+    "death_year": 249,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "娶孙权之女孙鲁班，参与石亭之战。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷60",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷60",
+      "quote": "全琮字子璜，吴郡钱唐人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷60",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷60"
+      }
+    ],
+    "facts": [
+      "娶孙权之女孙鲁班，参与石亭之战。"
+    ]
+  },
+  {
+    "id": "lv-dai",
+    "name": "吕岱",
+    "aliases": [
+      "吕定公",
+      "定公"
+    ],
+    "birth_year": 161,
+    "death_year": 256,
+    "active_year": 226,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "武将",
+      "官员"
+    ],
+    "summary": "广陵海陵人，曾任交州刺史，晚年任大司马。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷60",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷60",
+      "quote": "吕岱字定公，广陵海陵人也，为郡县吏，避乱南渡。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷60",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷60"
+      }
+    ],
+    "facts": [
+      "广陵海陵人，曾任交州刺史，晚年任大司马。"
+    ]
+  },
+  {
+    "id": "zhou-fang",
+    "name": "周鲂",
+    "aliases": [
+      "周子鱼",
+      "子鱼"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 228,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "用诈降计诱曹休深入，促成石亭大捷。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷60",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷60",
+      "quote": "周鲂字子鱼，吴郡阳羡人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷60",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷60"
+      }
+    ],
+    "facts": [
+      "用诈降计诱曹休深入，促成石亭大捷。"
+    ]
+  },
+  {
+    "id": "pan-jun",
+    "name": "潘濬",
+    "aliases": [
+      "潘承明",
+      "承明",
+      "潘浚"
+    ],
+    "birth_year": null,
+    "death_year": 239,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "原为刘备荆州属官，后仕孙权。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷61",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷61",
+      "quote": "潘濬字承明，武陵汉寿人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷61",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷61"
+      }
+    ],
+    "facts": [
+      "原为刘备荆州属官，后仕孙权。"
+    ]
+  },
+  {
+    "id": "lu-kai",
+    "name": "陆凯",
+    "aliases": [
+      "陆敬风",
+      "敬风"
+    ],
+    "birth_year": 198,
+    "death_year": 269,
+    "active_year": 266,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "孙吴左丞相，曾多次劝谏孙皓。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷61",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷61",
+      "quote": "陆凯字敬风，吴郡吴人，丞相逊族子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷61",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷61"
+      }
+    ],
+    "facts": [
+      "孙吴左丞相，曾多次劝谏孙皓。"
+    ]
+  },
+  {
+    "id": "zhuge-ke",
+    "name": "诸葛恪",
+    "aliases": [
+      "诸葛元逊",
+      "元逊"
+    ],
+    "birth_year": 203,
+    "death_year": 253,
+    "active_year": 252,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "权臣",
+      "武将"
+    ],
+    "summary": "诸葛瑾之子，孙亮时辅政，252年统军赢得东兴之战。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷64",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷64",
+      "quote": "诸葛恪字元逊，瑾长子也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷64"
+      }
+    ],
+    "facts": [
+      "诸葛瑾之子，孙亮时辅政，252年统军赢得东兴之战。"
+    ]
+  },
+  {
+    "id": "teng-yin",
+    "name": "滕胤",
+    "aliases": [
+      "滕承嗣",
+      "承嗣"
+    ],
+    "birth_year": null,
+    "death_year": 256,
+    "active_year": 252,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "受孙权遗命辅佐孙亮，后被孙綝诛杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷64",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷64",
+      "quote": "滕胤字承嗣，北海剧人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷64"
+      }
+    ],
+    "facts": [
+      "受孙权遗命辅佐孙亮，后被孙綝诛杀。"
+    ]
+  },
+  {
+    "id": "sun-jun",
+    "name": "孙峻",
+    "aliases": [
+      "孙子远",
+      "子远"
+    ],
+    "birth_year": 219,
+    "death_year": 256,
+    "active_year": 253,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "253年杀诸葛恪，掌握孙吴朝政。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷64",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷64",
+      "quote": "孙峻字子远，孙坚弟静之曾孙也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷64"
+      }
+    ],
+    "facts": [
+      "253年杀诸葛恪，掌握孙吴朝政。"
+    ]
+  },
+  {
+    "id": "sun-chen",
+    "name": "孙綝",
+    "aliases": [
+      "孙子通",
+      "子通",
+      "孙𬘭"
+    ],
+    "birth_year": 231,
+    "death_year": 258,
+    "active_year": 258,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "孙峻从弟，废孙亮立孙休，后被孙休诛杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷64",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷64",
+      "quote": "孙𬘭字子通，与峻同祖。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷64"
+      }
+    ],
+    "facts": [
+      "孙峻从弟，废孙亮立孙休，后被孙休诛杀。"
+    ]
+  },
+  {
+    "id": "puyang-xing",
+    "name": "濮阳兴",
+    "aliases": [
+      "濮阳子元",
+      "子元"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "active_year": 264,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "孙休时任丞相，后参与拥立孙皓。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷64",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷64",
+      "quote": "濮阳兴字子元，陈留人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷64"
+      }
+    ],
+    "facts": [
+      "孙休时任丞相，后参与拥立孙皓。"
+    ]
+  },
+  {
+    "id": "wei-yao",
+    "name": "韦曜",
+    "aliases": [
+      "韦弘嗣",
+      "弘嗣",
+      "韦昭"
+    ],
+    "birth_year": 204,
+    "death_year": 273,
+    "active_year": 250,
+    "gender": "男",
+    "factions": [
+      "孙吴"
+    ],
+    "roles": [
+      "史学家"
+    ],
+    "summary": "吴郡云阳人，参与编撰《吴书》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷65",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷65",
+      "quote": "韦曜字弘嗣，吴郡云阳人也。"
+    },
+    "sources": [
+      {
+        "title": "三国志 卷65",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷65"
+      }
+    ],
+    "facts": [
+      "吴郡云阳人，参与编撰《吴书》。"
+    ]
+  },
+  {
+    "id": "sima-yi",
+    "name": "司马懿",
+    "aliases": [
+      "司马仲达",
+      "仲达",
+      "晋宣帝"
+    ],
+    "birth_year": 179,
+    "death_year": 251,
+    "active_year": 249,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "权臣",
+      "军事家"
+    ],
+    "summary": "辅佐曹魏，249年发动高平陵之变；司马师、司马昭之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "”《汉晋春秋 》曰：初，夏侯霸降蜀，姜维问之曰：“司马懿既得彼政，当复有征伐之志不？”霸曰：“彼方营立家门，未遑外事。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷1",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷001"
+      },
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "辅佐曹魏，249年发动高平陵之变。",
+      "司马师、司马昭之父。"
+    ]
+  },
+  {
+    "id": "sima-shi",
+    "name": "司马师",
+    "aliases": [
+      "司马子元",
+      "子元",
+      "晋景帝"
+    ],
+    "birth_year": 208,
+    "death_year": 255,
+    "active_year": 254,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "司马懿长子，254年废曹芳，255年镇压毌丘俭之乱。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "艾遣子惠唐亭侯忠等出其右，司马师纂等出其左。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷2",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷002"
+      },
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "司马懿长子，254年废曹芳，255年镇压毌丘俭之乱。"
+    ]
+  },
+  {
+    "id": "sima-zhao",
+    "name": "司马昭",
+    "aliases": [
+      "司马子上",
+      "子上",
+      "晋文帝"
+    ],
+    "birth_year": 211,
+    "death_year": 265,
+    "active_year": 263,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "司马懿之子，司马炎之父，执政期间曹魏灭蜀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷4",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷04",
+      "quote": "乃召侍中王沈、尚书王经、散骑常侍王业，谓曰：“司马昭之心，路人所知也。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷2",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷002"
+      },
+      {
+        "title": "三国志 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+      }
+    ],
+    "facts": [
+      "司马懿之子，司马炎之父，执政期间曹魏灭蜀。"
+    ]
+  },
+  {
+    "id": "sima-yan",
+    "name": "司马炎",
+    "aliases": [
+      "司马安世",
+      "安世",
+      "晋武帝"
+    ],
+    "birth_year": 236,
+    "death_year": 290,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "265年代魏建立西晋，280年灭吴统一中国。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷4",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷04",
+      "quote": "使使持节行中护军中垒将军司马炎北迎常道乡公璜嗣明帝后。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷3",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷003"
+      },
+      {
+        "title": "三国志 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷04"
+      }
+    ],
+    "facts": [
+      "265年代魏建立西晋，280年灭吴统一中国。"
+    ]
+  },
+  {
+    "id": "sima-zhong",
+    "name": "司马衷",
+    "aliases": [
+      "司马正度",
+      "正度",
+      "晋惠帝"
+    ],
+    "birth_year": 259,
+    "death_year": 307,
+    "active_year": 300,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "司马炎之子，西晋第二位皇帝，在位时发生八王之乱。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷4",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷004"
+      }
+    ],
+    "facts": [
+      "司马炎之子，西晋第二位皇帝，在位时发生八王之乱。"
+    ]
+  },
+  {
+    "id": "sima-chi",
+    "name": "司马炽",
+    "aliases": [
+      "司马丰度",
+      "丰度",
+      "晋怀帝"
+    ],
+    "birth_year": 284,
+    "death_year": 313,
+    "active_year": 311,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "司马炎之子，永嘉之乱中被汉赵俘虏。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷5",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷005"
+      }
+    ],
+    "facts": [
+      "司马炎之子，永嘉之乱中被汉赵俘虏。"
+    ]
+  },
+  {
+    "id": "sima-ye",
+    "name": "司马邺",
+    "aliases": [
+      "司马彦旗",
+      "彦旗",
+      "晋愍帝"
+    ],
+    "birth_year": 300,
+    "death_year": 318,
+    "active_year": 316,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "西晋末代皇帝，316年在长安降汉赵，318年遇害。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷5",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷005"
+      }
+    ],
+    "facts": [
+      "西晋末代皇帝，316年在长安降汉赵，318年遇害。"
+    ]
+  },
+  {
+    "id": "sima-rui",
+    "name": "司马睿",
+    "aliases": [
+      "司马景文",
+      "景文",
+      "晋元帝"
+    ],
+    "birth_year": 276,
+    "death_year": 323,
+    "active_year": 307,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "西晋时为琅邪王，307年镇建邺，后建立东晋。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷6",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷006"
+      }
+    ],
+    "facts": [
+      "西晋时为琅邪王，307年镇建邺，后建立东晋。"
+    ]
+  },
+  {
+    "id": "zhang-chunhua",
+    "name": "张春华",
+    "aliases": [
+      "宣穆皇后",
+      "宣穆张皇后"
+    ],
+    "birth_year": 189,
+    "death_year": 247,
+    "active_year": 240,
+    "gender": "女",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "司马懿之妻，司马师、司马昭之母。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "司马懿之妻，司马师、司马昭之母。"
+    ]
+  },
+  {
+    "id": "yang-huiyu",
+    "name": "羊徽瑜",
+    "aliases": [
+      "景献皇后",
+      "景献羊皇后"
+    ],
+    "birth_year": 214,
+    "death_year": 278,
+    "active_year": 270,
+    "gender": "女",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "羊祜之姊，司马师之妻，晋武帝时尊为弘训太后。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "羊祜之姊，司马师之妻，晋武帝时尊为弘训太后。"
+    ]
+  },
+  {
+    "id": "wang-yuanji",
+    "name": "王元姬",
+    "aliases": [
+      "文明皇后",
+      "文明王皇后"
+    ],
+    "birth_year": 217,
+    "death_year": 268,
+    "active_year": 265,
+    "gender": "女",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "王肃之女，司马昭之妻，司马炎、司马攸之母。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "王肃之女，司马昭之妻，司马炎、司马攸之母。"
+    ]
+  },
+  {
+    "id": "yang-yan",
+    "name": "杨艳",
+    "aliases": [
+      "杨琼芝",
+      "琼芝",
+      "武元皇后"
+    ],
+    "birth_year": 238,
+    "death_year": 274,
+    "active_year": 265,
+    "gender": "女",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "司马炎皇后，司马衷之母。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "司马炎皇后，司马衷之母。"
+    ]
+  },
+  {
+    "id": "yang-zhi",
+    "name": "杨芷",
+    "aliases": [
+      "杨季兰",
+      "季兰",
+      "武悼皇后"
+    ],
+    "birth_year": 259,
+    "death_year": 292,
+    "active_year": 290,
+    "gender": "女",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "杨骏之女，司马炎第二任皇后，后被贾南风废黜。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "杨骏之女，司马炎第二任皇后，后被贾南风废黜。"
+    ]
+  },
+  {
+    "id": "zuo-fen",
+    "name": "左芬",
+    "aliases": [
+      "左棻",
+      "左兰芝",
+      "兰芝"
+    ],
+    "birth_year": null,
+    "death_year": 300,
+    "active_year": 272,
+    "gender": "女",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "文学家",
+      "妃嫔"
+    ],
+    "summary": "左思之妹，晋武帝妃嫔，以文才见重。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "左思之妹，晋武帝妃嫔，以文才见重。"
+    ]
+  },
+  {
+    "id": "jia-nanfeng",
+    "name": "贾南风",
+    "aliases": [
+      "惠贾皇后",
+      "贾皇后"
+    ],
+    "birth_year": 257,
+    "death_year": 300,
+    "active_year": 291,
+    "gender": "女",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "贾充之女，司马衷皇后，曾主导西晋朝政。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "贾充之女，司马衷皇后，曾主导西晋朝政。"
+    ]
+  },
+  {
+    "id": "yang-xianrong",
+    "name": "羊献容",
+    "aliases": [
+      "惠羊皇后",
+      "羊皇后"
+    ],
+    "birth_year": null,
+    "death_year": 322,
+    "active_year": 300,
+    "gender": "女",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "皇后"
+    ],
+    "summary": "先为晋惠帝皇后，后成为刘曜皇后。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷031"
+      }
+    ],
+    "facts": [
+      "先为晋惠帝皇后，后成为刘曜皇后。"
+    ]
+  },
+  {
+    "id": "yang-hu",
+    "name": "羊祜",
+    "aliases": [
+      "羊叔子",
+      "叔子"
+    ],
+    "birth_year": 221,
+    "death_year": 278,
+    "active_year": 270,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "镇守荆州，筹划灭吴，临终推荐杜预。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷25",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷25",
+      "quote": "’逮锺会为镇西将军，宪英谓从子羊祜曰：‘锺士季何故西出？’祜曰：‘将为灭蜀也。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷034"
+      },
+      {
+        "title": "三国志 卷25",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷25"
+      }
+    ],
+    "facts": [
+      "镇守荆州，筹划灭吴，临终推荐杜预。"
+    ]
+  },
+  {
+    "id": "du-yu",
+    "name": "杜预",
+    "aliases": [
+      "杜元凯",
+      "元凯"
+    ],
+    "birth_year": 222,
+    "death_year": 285,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "武将",
+      "学者"
+    ],
+    "summary": "参与西晋灭吴，著有《春秋左氏经传集解》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "”杜预言于众曰：“伯玉其不免乎！身为名士，位望已高，既无德音，又不御下以正，是小人而乘君子之器，将何以堪其责乎？”瓘闻之，不俟驾而谢"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷034"
+      },
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "参与西晋灭吴，著有《春秋左氏经传集解》。"
+    ]
+  },
+  {
+    "id": "wei-guan",
+    "name": "卫瓘",
+    "aliases": [
+      "卫伯玉",
+      "伯玉"
+    ],
+    "birth_year": 220,
+    "death_year": 291,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "官员",
+      "书法家"
+    ],
+    "summary": "参与灭蜀，后为西晋司空，291年被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "于太康中为卫瓘、崔洪、石崇等所提携，以新安令博士为司空从事中郎。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷036"
+      },
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "参与灭蜀，后为西晋司空，291年被杀。"
+    ]
+  },
+  {
+    "id": "zhang-hua",
+    "name": "张华",
+    "aliases": [
+      "张茂先",
+      "茂先"
+    ],
+    "birth_year": 232,
+    "death_year": 300,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "官员",
+      "文学家"
+    ],
+    "summary": "支持晋武帝伐吴，著有《博物志》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "后张华请为长史，稍迁至尚书。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷36",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷036"
+      },
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "支持晋武帝伐吴，著有《博物志》。"
+    ]
+  },
+  {
+    "id": "jia-chong",
+    "name": "贾充",
+    "aliases": [
+      "贾公闾",
+      "公闾"
+    ],
+    "birth_year": 217,
+    "death_year": 282,
+    "active_year": 265,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "贾逵之子，助司马氏掌权；贾南风之父。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "与贾充共定音律，又作易集解。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷040"
+      },
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "贾逵之子，助司马氏掌权。",
+      "贾南风之父。"
+    ]
+  },
+  {
+    "id": "yang-jun",
+    "name": "杨骏",
+    "aliases": [
+      "杨文长",
+      "文长"
+    ],
+    "birth_year": null,
+    "death_year": 291,
+    "active_year": 290,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "杨芷之父，晋武帝临终托付辅政，291年被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷11",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷11",
+      "quote": "承孙邵，晋中护军，与舅杨骏俱被诛。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷040"
+      },
+      {
+        "title": "三国志 卷11",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷11"
+      }
+    ],
+    "facts": [
+      "杨芷之父，晋武帝临终托付辅政，291年被杀。"
+    ]
+  },
+  {
+    "id": "wang-jun",
+    "name": "王濬",
+    "aliases": [
+      "王士治",
+      "士治",
+      "王浚"
+    ],
+    "birth_year": 206,
+    "death_year": 286,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "任益州刺史，造楼船，280年率水军攻入建业。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷18",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷18",
+      "quote": "王濬在益州，受中制募兵讨吴，无虎符，𢽾收濬从事列上，由此召𢽾还。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷42",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷042"
+      },
+      {
+        "title": "三国志 卷18",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷18"
+      }
+    ],
+    "facts": [
+      "任益州刺史，造楼船，280年率水军攻入建业。"
+    ]
+  },
+  {
+    "id": "shan-tao",
+    "name": "山涛",
+    "aliases": [
+      "山巨源",
+      "巨源"
+    ],
+    "birth_year": 205,
+    "death_year": 283,
+    "active_year": 270,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "竹林七贤之一，西晋时主管选举人才。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷16",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷16",
+      "quote": "山涛启事称愉忠笃有智意。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷043"
+      },
+      {
+        "title": "三国志 卷16",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷16"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，西晋时主管选举人才。"
+    ]
+  },
+  {
+    "id": "wang-rong",
+    "name": "王戎",
+    "aliases": [
+      "王濬冲",
+      "濬冲"
+    ],
+    "birth_year": 234,
+    "death_year": 305,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "竹林七贤之一，曾参与灭吴，后任司徒。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷28",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷28",
+      "quote": "次孙千秋有时望，光禄大夫王戎辟为掾。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷43",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷043"
+      },
+      {
+        "title": "三国志 卷28",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷28"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，曾参与灭吴，后任司徒。"
+    ]
+  },
+  {
+    "id": "ruan-ji",
+    "name": "阮籍",
+    "aliases": [
+      "阮嗣宗",
+      "嗣宗"
+    ],
+    "birth_year": 210,
+    "death_year": 263,
+    "active_year": 250,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "诗人"
+    ],
+    "summary": "竹林七贤之一，阮瑀之子，曾任步兵校尉。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷049"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，阮瑀之子，曾任步兵校尉。"
+    ]
+  },
+  {
+    "id": "ji-kang",
+    "name": "嵇康",
+    "aliases": [
+      "嵇叔夜",
+      "叔夜"
+    ],
+    "birth_year": 223,
+    "death_year": null,
+    "active_year": 260,
+    "gender": "男",
+    "factions": [
+      "曹魏"
+    ],
+    "roles": [
+      "思想家",
+      "文学家"
+    ],
+    "summary": "竹林七贤之一，著《养生论》，后被司马昭杀害。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷16",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷16",
+      "quote": "次子安，字仲悌，与嵇康善，与康俱被诛。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷049"
+      },
+      {
+        "title": "三国志 卷16",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷16"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，著《养生论》，后被司马昭杀害。"
+    ]
+  },
+  {
+    "id": "xiang-xiu",
+    "name": "向秀",
+    "aliases": [
+      "向子期",
+      "子期"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 265,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "思想家"
+    ],
+    "summary": "竹林七贤之一，曾注释《庄子》。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷049"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，曾注释《庄子》。"
+    ]
+  },
+  {
+    "id": "liu-ling",
+    "name": "刘伶",
+    "aliases": [
+      "刘伯伦",
+      "伯伦"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 265,
+    "gender": "男",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "竹林七贤之一，著有《酒德颂》。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷049"
+      }
+    ],
+    "facts": [
+      "竹林七贤之一，著有《酒德颂》。"
+    ]
+  },
+  {
+    "id": "huangfu-mi",
+    "name": "皇甫谧",
+    "aliases": [
+      "皇甫士安",
+      "士安"
+    ],
+    "birth_year": 215,
+    "death_year": 282,
+    "active_year": 270,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "医者",
+      "学者"
+    ],
+    "summary": "撰《针灸甲乙经》，曾拒绝晋武帝征召。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "皇甫谧《逸士传》：或问许子将，靖与爽孰贤？子将曰：“二人皆玉也，慈明外朗，叔慈内润。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷51",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷051"
+      },
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "撰《针灸甲乙经》，曾拒绝晋武帝征召。"
+    ]
+  },
+  {
+    "id": "lu-ji",
+    "name": "陆机",
+    "aliases": [
+      "陆士衡",
+      "士衡"
+    ],
+    "birth_year": 261,
+    "death_year": 303,
+    "active_year": 300,
+    "gender": "男",
+    "factions": [
+      "孙吴",
+      "西晋"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "陆抗之子，与弟陆云并称二陆，著有《文赋》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷2",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷02",
+      "quote": "”陆机大墓赋曰：“观细木而闷迟，睹洪椟而念槥。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷54",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷054"
+      },
+      {
+        "title": "三国志 卷2",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷02"
+      }
+    ],
+    "facts": [
+      "陆抗之子，与弟陆云并称二陆，著有《文赋》。"
+    ]
+  },
+  {
+    "id": "lu-yun",
+    "name": "陆云",
+    "aliases": [
+      "陆士龙",
+      "士龙"
+    ],
+    "birth_year": 262,
+    "death_year": 303,
+    "active_year": 300,
+    "gender": "男",
+    "factions": [
+      "孙吴",
+      "西晋"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "陆抗之子，陆机之弟，西晋文学家。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷13",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷13",
+      "quote": "清河，陆云也。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷54",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷054"
+      },
+      {
+        "title": "三国志 卷13",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷13"
+      }
+    ],
+    "facts": [
+      "陆抗之子，陆机之弟，西晋文学家。"
+    ]
+  },
+  {
+    "id": "pan-yue",
+    "name": "潘岳",
+    "aliases": [
+      "潘安仁",
+      "安仁",
+      "潘安"
+    ],
+    "birth_year": 247,
+    "death_year": 300,
+    "active_year": 290,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "荥阳中牟人，西晋文学家，著有《闲居赋》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷26",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷26",
+      "quote": "肇子潭字道元，次歆字公嗣，潭子彧字长文，次经字仲武，皆见《潘岳集》。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷55",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷055"
+      },
+      {
+        "title": "三国志 卷26",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷26"
+      }
+    ],
+    "facts": [
+      "荥阳中牟人，西晋文学家，著有《闲居赋》。"
+    ]
+  },
+  {
+    "id": "zhou-chu",
+    "name": "周处",
+    "aliases": [
+      "周子隐",
+      "子隐"
+    ],
+    "birth_year": null,
+    "death_year": 297,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "孙吴",
+      "西晋"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "周鲂之子，吴亡后仕晋，后在讨齐万年时战死。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷58",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷058"
+      }
+    ],
+    "facts": [
+      "周鲂之子，吴亡后仕晋，后在讨齐万年时战死。"
+    ]
+  },
+  {
+    "id": "sima-lun",
+    "name": "司马伦",
+    "aliases": [
+      "司马子彝",
+      "子彝",
+      "赵王"
+    ],
+    "birth_year": null,
+    "death_year": 301,
+    "active_year": 301,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "宗室",
+      "皇帝"
+    ],
+    "summary": "司马懿之子，八王之乱参与者，301年短暂称帝。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷59",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷059"
+      }
+    ],
+    "facts": [
+      "司马懿之子，八王之乱参与者，301年短暂称帝。"
+    ]
+  },
+  {
+    "id": "sima-ying",
+    "name": "司马颖",
+    "aliases": [
+      "司马章度",
+      "章度",
+      "成都王"
+    ],
+    "birth_year": 279,
+    "death_year": 306,
+    "active_year": 304,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "宗室"
+    ],
+    "summary": "司马炎之子，八王之乱参与者，曾被立为皇太弟。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷59",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷059"
+      }
+    ],
+    "facts": [
+      "司马炎之子，八王之乱参与者，曾被立为皇太弟。"
+    ]
+  },
+  {
+    "id": "sima-yue",
+    "name": "司马越",
+    "aliases": [
+      "司马元超",
+      "元超",
+      "东海王"
+    ],
+    "birth_year": null,
+    "death_year": 311,
+    "active_year": 306,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "宗室",
+      "权臣"
+    ],
+    "summary": "八王之乱后期的掌权者，迎晋惠帝回洛阳。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷12",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷12",
+      "quote": "永嘉中为尚书，为司马越所杀。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷59",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷059"
+      },
+      {
+        "title": "三国志 卷12",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷12"
+      }
+    ],
+    "facts": [
+      "八王之乱后期的掌权者，迎晋惠帝回洛阳。"
+    ]
+  },
+  {
+    "id": "liu-kun",
+    "name": "刘琨",
+    "aliases": [
+      "刘越石",
+      "越石"
+    ],
+    "birth_year": 271,
+    "death_year": 318,
+    "active_year": 310,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "武将",
+      "诗人"
+    ],
+    "summary": "任并州刺史，在晋末经营晋阳抵抗汉赵。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷62",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷062"
+      }
+    ],
+    "facts": [
+      "任并州刺史，在晋末经营晋阳抵抗汉赵。"
+    ]
+  },
+  {
+    "id": "zu-ti",
+    "name": "祖逖",
+    "aliases": [
+      "祖士稚",
+      "士稚"
+    ],
+    "birth_year": 266,
+    "death_year": 321,
+    "active_year": 313,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "313年率部北伐，史书载其与刘琨闻鸡起舞。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷62",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷062"
+      }
+    ],
+    "facts": [
+      "313年率部北伐，史书载其与刘琨闻鸡起舞。"
+    ]
+  },
+  {
+    "id": "wang-dao",
+    "name": "王导",
+    "aliases": [
+      "王茂弘",
+      "茂弘"
+    ],
+    "birth_year": 276,
+    "death_year": 339,
+    "active_year": 307,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "官员"
+    ],
+    "summary": "琅邪临沂人，辅佐司马睿南渡并建立东晋。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷65",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷065"
+      }
+    ],
+    "facts": [
+      "琅邪临沂人，辅佐司马睿南渡并建立东晋。"
+    ]
+  },
+  {
+    "id": "tao-kan",
+    "name": "陶侃",
+    "aliases": [
+      "陶士行",
+      "士行"
+    ],
+    "birth_year": 259,
+    "death_year": 334,
+    "active_year": 315,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "西晋末为荆州刺史，后为东晋重要将领。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷66",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷066"
+      }
+    ],
+    "facts": [
+      "西晋末为荆州刺史，后为东晋重要将领。"
+    ]
+  },
+  {
+    "id": "wen-jiao",
+    "name": "温峤",
+    "aliases": [
+      "温太真",
+      "太真"
+    ],
+    "birth_year": 288,
+    "death_year": 329,
+    "active_year": 315,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "官员",
+      "武将"
+    ],
+    "summary": "西晋末辅佐刘琨，后南渡辅佐东晋。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷67",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷067"
+      }
+    ],
+    "facts": [
+      "西晋末辅佐刘琨，后南渡辅佐东晋。"
+    ]
+  },
+  {
+    "id": "ge-hong",
+    "name": "葛洪",
+    "aliases": [
+      "葛稚川",
+      "稚川",
+      "抱朴子"
+    ],
+    "birth_year": 283,
+    "death_year": null,
+    "active_year": 314,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "道士",
+      "医者",
+      "学者"
+    ],
+    "summary": "丹阳句容人，著《抱朴子》，曾参与平定石冰之乱。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷49",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷49",
+      "quote": "〈葛洪《神仙传 》曰：燮尝病死，已三日，仙人董奉以一丸药与服，以水含之，捧其头摇（捎）之，食顷，即开目动手，颜色渐复，半日能起坐，四"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷72",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷072"
+      },
+      {
+        "title": "三国志 卷49",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷49"
+      }
+    ],
+    "facts": [
+      "丹阳句容人，著《抱朴子》，曾参与平定石冰之乱。"
+    ]
+  },
+  {
+    "id": "guo-pu",
+    "name": "郭璞",
+    "aliases": [
+      "郭景纯",
+      "景纯"
+    ],
+    "birth_year": 276,
+    "death_year": 324,
+    "active_year": 310,
+    "gender": "男",
+    "factions": [
+      "西晋",
+      "其他"
+    ],
+    "roles": [
+      "文学家",
+      "学者"
+    ],
+    "summary": "河东闻喜人，精于训诂，曾注《尔雅》等书。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷40",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷40",
+      "quote": "郭璞注曰：皆老者皮毛枯瘁之形也。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷72",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷072"
+      },
+      {
+        "title": "三国志 卷40",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷40"
+      }
+    ],
+    "facts": [
+      "河东闻喜人，精于训诂，曾注《尔雅》等书。"
+    ]
+  },
+  {
+    "id": "xie-shang",
+    "name": "谢尚",
+    "aliases": [
+      "谢仁祖",
+      "仁祖"
+    ],
+    "birth_year": 308,
+    "death_year": 357,
+    "active_year": 310,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "武将",
+      "音乐家"
+    ],
+    "summary": "陈郡阳夏人，谢鲲之子；生于西晋，后为东晋将领，善音乐。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷79",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷079"
+      }
+    ],
+    "facts": [
+      "陈郡阳夏人，谢鲲之子。",
+      "生于西晋，后为东晋将领，善音乐。"
+    ]
+  },
+  {
+    "id": "chen-shou",
+    "name": "陈寿",
+    "aliases": [
+      "陈承祚",
+      "承祚"
+    ],
+    "birth_year": 233,
+    "death_year": 297,
+    "active_year": 280,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "西晋"
+    ],
+    "roles": [
+      "史学家"
+    ],
+    "summary": "巴西安汉人，先仕蜀汉后仕西晋，撰《三国志》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷31",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷31",
+      "quote": "〈陈寿《益部耆旧传》曰：董扶字茂安。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷82",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷082"
+      },
+      {
+        "title": "三国志 卷31",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷31"
+      }
+    ],
+    "facts": [
+      "巴西安汉人，先仕蜀汉后仕西晋，撰《三国志》。"
+    ]
+  },
+  {
+    "id": "li-mi",
+    "name": "李密",
+    "aliases": [
+      "李令伯",
+      "令伯",
+      "李虔"
+    ],
+    "birth_year": 224,
+    "death_year": 287,
+    "active_year": 267,
+    "gender": "男",
+    "factions": [
+      "蜀汉",
+      "西晋"
+    ],
+    "roles": [
+      "文学家",
+      "官员"
+    ],
+    "summary": "犍为武阳人，先仕蜀汉，入晋后上《陈情表》。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "〈戏同县后进有李密者，字令伯。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷88",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷088"
+      },
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "犍为武阳人，先仕蜀汉，入晋后上《陈情表》。"
+    ]
+  },
+  {
+    "id": "zuo-si",
+    "name": "左思",
+    "aliases": [
+      "左太冲",
+      "太冲"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 300,
+    "gender": "男",
+    "factions": [
+      "西晋"
+    ],
+    "roles": [
+      "文学家"
+    ],
+    "summary": "左芬之兄，撰《三都赋》，史书载洛阳为之纸贵。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷45",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+      "quote": "左思《蜀都赋 》“摛藻掞天庭”。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷92",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷092"
+      },
+      {
+        "title": "三国志 卷45",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷45"
+      }
+    ],
+    "facts": [
+      "左芬之兄，撰《三都赋》，史书载洛阳为之纸贵。"
+    ]
+  },
+  {
+    "id": "xin-xianying",
+    "name": "辛宪英",
+    "aliases": [
+      "辛氏"
+    ],
+    "birth_year": 191,
+    "death_year": 269,
+    "active_year": 249,
+    "gender": "女",
+    "factions": [
+      "曹魏",
+      "西晋"
+    ],
+    "roles": [
+      "士族女性"
+    ],
+    "summary": "辛毗之女、羊耽之妻，曾就曹爽等政治事件作出判断。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷96",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷096"
+      }
+    ],
+    "facts": [
+      "辛毗之女、羊耽之妻，曾就曹爽等政治事件作出判断。"
+    ]
+  },
+  {
+    "id": "liu-yuan",
+    "name": "刘渊",
+    "aliases": [
+      "刘元海",
+      "元海",
+      "汉光文帝"
+    ],
+    "birth_year": null,
+    "death_year": 310,
+    "active_year": 304,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "匈奴贵族，304年称汉王，建立汉政权，后称帝。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷101",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷101"
+      }
+    ],
+    "facts": [
+      "匈奴贵族，304年称汉王，建立汉政权，后称帝。"
+    ]
+  },
+  {
+    "id": "shi-le",
+    "name": "石勒",
+    "aliases": [
+      "石世龙",
+      "世龙",
+      "后赵明帝"
+    ],
+    "birth_year": 274,
+    "death_year": 333,
+    "active_year": 311,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "皇帝",
+      "军事家"
+    ],
+    "summary": "羯人，参与晋末战争，后建立后赵。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷104",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷104"
+      }
+    ],
+    "facts": [
+      "羯人，参与晋末战争，后建立后赵。"
+    ]
+  },
+  {
+    "id": "murong-hui",
+    "name": "慕容廆",
+    "aliases": [
+      "慕容弈洛瑰",
+      "弈洛瑰"
+    ],
+    "birth_year": 269,
+    "death_year": 333,
+    "active_year": 300,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "部族首领"
+    ],
+    "summary": "鲜卑慕容部首领，活动于辽西，受晋朝官爵。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷108",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷108"
+      }
+    ],
+    "facts": [
+      "鲜卑慕容部首领，活动于辽西，受晋朝官爵。"
+    ]
+  },
+  {
+    "id": "li-te",
+    "name": "李特",
+    "aliases": [
+      "李玄休",
+      "玄休"
+    ],
+    "birth_year": null,
+    "death_year": 303,
+    "active_year": 301,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "流民首领"
+    ],
+    "summary": "率流民入蜀，起兵反晋；李雄之父。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "晋书 卷120",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷120"
+      }
+    ],
+    "facts": [
+      "率流民入蜀，起兵反晋。",
+      "李雄之父。"
+    ]
+  },
+  {
+    "id": "li-xiong",
+    "name": "李雄",
+    "aliases": [
+      "李仲隽",
+      "仲隽",
+      "成武帝"
+    ],
+    "birth_year": 274,
+    "death_year": 334,
+    "active_year": 306,
+    "gender": "男",
+    "factions": [
+      "其他"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "李特之子，306年在成都称帝，建立成汉政权。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷34",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷34",
+      "quote": "〈孙盛《蜀世谱》曰：壹孙乔，没李雄中三十年，不为雄屈也。"
+    },
+    "sources": [
+      {
+        "title": "晋书 卷121",
+        "url": "https://zh.wikisource.org/zh-hans/晉書/卷121"
+      },
+      {
+        "title": "三国志 卷34",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷34"
+      }
+    ],
+    "facts": [
+      "李特之子，306年在成都称帝，建立成汉政权。"
+    ]
+  },
+  {
+    "id": "zhang-jiao",
+    "name": "张角",
+    "aliases": [
+      "天公将军"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "active_year": 184,
+    "gender": "男",
+    "factions": [
+      "东汉",
+      "其他"
+    ],
+    "roles": [
+      "宗教领袖",
+      "起义领袖"
+    ],
+    "summary": "太平道领袖，184年发动黄巾起义。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷46",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷46",
+      "quote": "中平元年 ，黄巾贼 师张角 起於魏郡 。"
+    },
+    "sources": [
+      {
+        "title": "后汉书 卷71",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷71"
+      },
+      {
+        "title": "三国志 卷46",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷46"
+      }
+    ],
+    "facts": [
+      "太平道领袖，184年发动黄巾起义。"
+    ]
+  },
+  {
+    "id": "huangfu-song",
+    "name": "皇甫嵩",
+    "aliases": [
+      "皇甫义真",
+      "义真"
+    ],
+    "birth_year": null,
+    "death_year": 195,
+    "active_year": 184,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "184年参与镇压黄巾起义，击败张梁等。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷10",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷10",
+      "quote": "〈《九州春秋 》曰：中平元年 ，车骑将军皇甫嵩既破黄巾，威震天下。"
+    },
+    "sources": [
+      {
+        "title": "后汉书 卷71",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷71"
+      },
+      {
+        "title": "三国志 卷10",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷10"
+      }
+    ],
+    "facts": [
+      "184年参与镇压黄巾起义，击败张梁等。"
+    ]
+  },
+  {
+    "id": "zhu-jun",
+    "name": "朱儁",
+    "aliases": [
+      "朱公伟",
+      "公伟",
+      "朱隽"
+    ],
+    "birth_year": null,
+    "death_year": 195,
+    "active_year": 184,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "武将"
+    ],
+    "summary": "会稽上虞人，184年参与镇压黄巾起义。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷1",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷01",
+      "quote": "河间张超尝荐遗于太尉朱儁，称遗“有冠世之懿，干时之量。"
+    },
+    "sources": [
+      {
+        "title": "后汉书 卷71",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷71"
+      },
+      {
+        "title": "三国志 卷1",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷01"
+      }
+    ],
+    "facts": [
+      "会稽上虞人，184年参与镇压黄巾起义。"
+    ]
+  },
+  {
+    "id": "lu-zhi",
+    "name": "卢植",
+    "aliases": [
+      "卢子干",
+      "子干"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "active_year": 184,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "学者",
+      "武将"
+    ],
+    "summary": "涿郡人，刘备和公孙瓒曾从其学习，参与镇压黄巾。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷32",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷32",
+      "quote": "”叔父子敬谓曰：“汝勿妄语，灭吾门也！”年十五，母使行学，与同宗刘德然、辽西公孙瓒俱事故九江太守同郡卢植。"
+    },
+    "sources": [
+      {
+        "title": "后汉书 卷64",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷64"
+      },
+      {
+        "title": "三国志 卷32",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷32"
+      }
+    ],
+    "facts": [
+      "涿郡人，刘备和公孙瓒曾从其学习，参与镇压黄巾。"
+    ]
+  },
+  {
+    "id": "he-jin",
+    "name": "何进",
+    "aliases": [
+      "何遂高",
+      "遂高"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "active_year": 189,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "权臣"
+    ],
+    "summary": "汉灵帝何皇后之兄，任大将军，谋诛宦官被杀。",
+    "sanguozhi": true,
+    "sanguozhi_evidence": {
+      "title": "三国志 卷1",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷01",
+      "quote": "大将军何进与袁绍谋诛宦官，太后不听。"
+    },
+    "sources": [
+      {
+        "title": "后汉书 卷69",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷69"
+      },
+      {
+        "title": "三国志 卷1",
+        "url": "https://zh.wikisource.org/zh-hans/三國志/卷01"
+      }
+    ],
+    "facts": [
+      "汉灵帝何皇后之兄，任大将军，谋诛宦官被杀。"
+    ]
+  },
+  {
+    "id": "liu-hong",
+    "name": "刘宏",
+    "aliases": [
+      "汉灵帝"
+    ],
+    "birth_year": 156,
+    "death_year": 189,
+    "active_year": 184,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "东汉皇帝，在位期间发生黄巾起义。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "后汉书 卷8",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷8"
+      }
+    ],
+    "facts": [
+      "东汉皇帝，在位期间发生黄巾起义。"
+    ]
+  },
+  {
+    "id": "liu-xie",
+    "name": "刘协",
+    "aliases": [
+      "刘伯和",
+      "伯和",
+      "汉献帝",
+      "山阳公"
+    ],
+    "birth_year": 181,
+    "death_year": 234,
+    "active_year": 220,
+    "gender": "男",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "皇帝"
+    ],
+    "summary": "东汉末代皇帝，220年禅位曹丕，封山阳公。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "后汉书 卷9",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷9"
+      }
+    ],
+    "facts": [
+      "东汉末代皇帝，220年禅位曹丕，封山阳公。"
+    ]
+  },
+  {
+    "id": "cai-yan",
+    "name": "蔡琰",
+    "aliases": [
+      "蔡文姬",
+      "文姬",
+      "蔡昭姬",
+      "昭姬"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "active_year": 207,
+    "gender": "女",
+    "factions": [
+      "东汉"
+    ],
+    "roles": [
+      "诗人"
+    ],
+    "summary": "蔡邕之女，曾流落南匈奴，曹操赎回后嫁董祀。",
+    "sanguozhi": false,
+    "sanguozhi_evidence": null,
+    "sources": [
+      {
+        "title": "后汉书 卷84",
+        "url": "https://zh.wikisource.org/zh-hans/後漢書/卷84"
+      }
+    ],
+    "facts": [
+      "蔡邕之女，曾流落南匈奴，曹操赎回后嫁董祀。"
+    ]
+  }
+]

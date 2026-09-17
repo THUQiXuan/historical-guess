@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta name="description" content="用是或否，走近一位历史人物。以汉末、三国与西晋为起点的历史推理小游戏。">
+  <title>问古 · 猜一位历史人物</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#play" aria-label="问古，返回游戏"><span class="brand-seal" aria-hidden="true">问</span><span>问古<small>把历史，问清楚。</small></span></a>
+      <nav class="main-nav" aria-label="主导航"><button class="nav-button selected" data-view="play" aria-current="page">开始推理</button><button class="nav-button" data-view="library">人物册</button><button class="nav-button" data-view="history">往局</button></nav>
+      <span class="agent-status" id="agent-status"><i></i><span>正在连接裁判</span></span>
+    </header>
+
+    <main>
+      <section id="view-play" class="view">
+        <div class="intro">
+          <div><p class="eyebrow">一问一答 · 与古人相逢</p><h1>谁，藏在史书里？</h1><p class="intro-description">一位人物，若干线索。用「是」与「否」，问出他的名字。</p></div>
+          <div class="era-note" aria-label="时间范围：公元184年至316年"><span>从黄巾起义，到西晋灭亡</span><p>184 <b>—</b> 316</p><span>汉末 / 三国 / 西晋</span></div>
+        </div>
+
+        <div id="global-notice" class="notice hidden" role="status"></div>
+        <div class="play-layout">
+          <aside class="setup-panel panel">
+            <div class="section-title"><span class="section-number">01</span><h2>设定一场</h2></div>
+            <form id="setup-form">
+              <fieldset class="range-fieldset"><legend>从哪段历史开始</legend><div id="preset-options" class="preset-options"><label class="preset-option selected"><input type="radio" name="preset" value="broad" checked><span><strong>广义三国</strong><small>汉末群雄，至西晋人物</small></span><span class="radio-mark"></span></label><label class="preset-option"><input type="radio" name="preset" value="sanguozhi"><span><strong>《三国志》人物</strong><small>名字出现于《三国志》</small></span><span class="radio-mark"></span></label></div></fieldset>
+              <label class="field-label" for="scope">再缩小一点范围 <span>选填</span></label>
+              <textarea id="scope" name="scope" rows="3" maxlength="400" placeholder="例如：曾为蜀汉效力的人物"></textarea>
+              <p class="field-hint">裁判会根据你的条件，从人物库中选人。</p>
+              <div class="limit-fields"><div><label class="field-label" for="question-limit">提问上限</label><input id="question-limit" name="question_limit" type="number" min="1" step="1" max="10000" inputmode="numeric" placeholder="不限"></div><div><label class="field-label" for="guess-limit">猜测上限</label><input id="guess-limit" name="guess_limit" type="number" min="1" step="1" max="10000" inputmode="numeric" placeholder="不限"></div></div>
+              <label class="checkbox-label"><input type="checkbox" id="timer-enabled" checked><span>显示游戏计时</span></label>
+              <button type="submit" id="start-button" class="button button-primary full-width"><span>请古人入局</span><span aria-hidden="true">↗</span></button>
+              <p class="setup-footnote">新开一局后，旧局仍可在「往局」中继续。</p>
+            </form>
+            <details class="rules"><summary>怎么玩？</summary><ol><li>裁判从符合范围的人物中，秘密选定一人。</li><li>每次提出一个能回答「是 / 否」的问题。非此类问题会得到「无法回答」。</li><li>想到名字后，在猜人物区域提交。裁判只回答「正确 / 错误」。</li><li>提问用尽后仍可猜人；猜测用尽，本局结束。</li></ol><p>人物生涯只要与 184—316 年有交集，即属于广义三国。裁判等待时间也计入用时。</p></details>
+          </aside>
+
+          <section class="game-panel panel" aria-label="游戏区域">
+            <div class="game-heading"><div class="section-title"><span class="section-number">02</span><h2 id="game-title">循迹识人</h2></div><span id="game-state" class="status-pill">静候开局</span></div>
+            <div id="game-empty" class="game-empty"><div class="empty-emblem" aria-hidden="true"><span>？</span></div><p class="eyebrow">史书已展开，等你第一问</p><h3>功名、故里，还是一段传奇？</h3><p>从左侧选择人物范围，开启你的推理。<br>你可以问：<span>「他曾经做过皇帝吗？」</span></p><div class="empty-divider"><span></span>一人 · 一史 · 一次相逢<span></span></div></div>
+            <div id="active-game" class="hidden">
+              <div class="game-context"><p id="game-scope"></p><div class="game-stats"><span>提问 <b id="question-count">0</b></span><span>猜测 <b id="guess-count">0</b></span><span id="timer-wrap" title="计时包含裁判思考和等待时间">用时 <b id="game-timer">00:00</b></span><button id="toggle-timer" type="button" class="text-button">隐藏计时</button></div></div>
+              <div id="answer-reveal" class="answer-reveal hidden"></div>
+              <div id="conversation" class="conversation" aria-live="polite" aria-label="本局问答记录"></div>
+              <div id="thinking" class="thinking hidden" role="status"><span class="thinking-dots" aria-hidden="true"><i></i><i></i><i></i></span><span id="thinking-text">裁判正在翻阅史料…</span></div>
+              <div id="game-error" class="inline-error hidden" role="alert"></div>
+              <div id="game-forms" class="game-forms">
+                <form id="question-form"><label for="question-input" class="field-label">问一个是否问题</label><div class="input-action"><input id="question-input" autocomplete="off" maxlength="500" placeholder="他曾为曹魏效力吗？" required><button type="submit" id="question-button" class="button button-dark">提问 <span aria-hidden="true">↑</span></button></div><p id="question-hint" class="field-hint">每次一个问题，让线索慢慢清晰。</p></form>
+                <form id="guess-form" class="guess-form"><div class="guess-label"><label for="guess-input" class="field-label">心中已有答案？</label><span>在这里直接猜名字</span></div><div class="input-action"><input id="guess-input" autocomplete="off" maxlength="100" placeholder="输入人物姓名或别名" required><button type="submit" id="guess-button" class="button button-outline">猜人物 <span aria-hidden="true">↗</span></button></div></form>
+              </div>
+              <div class="game-bottom"><span id="game-footer-note">答案在结束时揭晓</span><button id="give-up-button" type="button" class="text-button muted">结束并揭晓</button></div>
+              <div id="give-up-confirm" class="confirm-inline hidden"><span>结束这局并查看人物？</span><button type="button" id="give-up-cancel" class="button button-small button-outline">继续想想</button><button type="button" id="give-up-yes" class="button button-small button-primary">揭晓答案</button></div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="view-library" class="view hidden" aria-labelledby="library-heading"><div class="page-heading"><div><p class="eyebrow">有名有据 · 人物小传</p><h1 id="library-heading">人物册</h1><p>翻阅人物与史料。开局后，裁判会从符合条件的人物中选出一位。</p></div><span class="large-count" id="library-total">— <small>位人物</small></span></div><div class="library-toolbar"><label class="search-input"><span aria-hidden="true">⌕</span><input id="library-search" type="search" placeholder="搜索姓名、别名或人物介绍" aria-label="搜索人物"></label><select id="library-preset" aria-label="人物范围"><option value="broad">广义三国</option><option value="sanguozhi">《三国志》人物</option></select></div><div id="library-notice" class="notice hidden" role="status"></div><div id="character-grid" class="character-grid"></div><div class="load-more-wrap"><button id="library-more" class="button button-outline hidden" type="button">再翻一页</button></div></section>
+
+      <section id="view-history" class="view hidden" aria-labelledby="history-heading"><div class="page-heading"><div><p class="eyebrow">来路可循 · 推理留痕</p><h1 id="history-heading">往局</h1><p>每一问都有迹可循。回看答案，或接着推理未完成的一局。</p></div><button id="history-refresh" class="button button-outline" type="button">刷新记录 <span aria-hidden="true">↻</span></button></div><div id="history-notice" class="notice hidden" role="status"></div><div id="history-list" class="history-list"></div><div class="load-more-wrap"><button id="history-more" class="button button-outline hidden" type="button">更多往局</button></div><p class="page-footnote">历史记录保存在本机服务的数据库中；此处展示当前浏览器会话的游戏。</p></section>
+    </main>
+    <footer class="site-footer"><span><b>问古</b> 以问为引，以史为证。</span><span id="database-note">汉末 · 三国 · 西晋</span></footer>
+  </div>
+</body>
+</html>
