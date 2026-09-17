@@ -77,6 +77,7 @@ def create_app(db_path=None, agent=None, data_path=None):
     from .agent import AgentError, CodexAgent
 
     characters = load_characters(Path(data_path or ROOT / 'data/characters.json'))
+    references = {person['id']: person for person in characters}
     store = Database(Path(db_path or os.environ.get('GAME_DB', ROOT / 'var/games.sqlite3')), characters)
     provider = os.environ.get('AGENT_PROVIDER', 'codex')
     if provider not in ('codex', 'openai'):
@@ -224,8 +225,15 @@ def create_app(db_path=None, agent=None, data_path=None):
             if kind == 'question' and game['question_limit'] is not None and game['question_count'] >= game['question_limit']:
                 raise HTTPException(409, '提问次数已用完，还可以提交人物猜测。')
             person = json.loads(game['character'])
+            # Preserve the saved identity and original event history, while
+            # allowing published historical errata to inform an ongoing game.
+            latest = references.get(person['id'])
+            if latest:
+                for field in ('facts', 'sources', 'factions', 'sanguozhi', 'sanguozhi_evidence'):
+                    if field in latest:
+                        person[field] = latest[field]
             if kind == 'question':
-                events = store.public(game)['events']
+                events = [event for event in store.public(game)['events'] if not event.get('withdrawn')]
                 verdict = await judge.question(person, events, body.text)
                 answer = verdict.get('answer')
                 if answer not in ('是', '否', '无法回答') or (answer == '无法回答') != (verdict.get('invalid') is True):

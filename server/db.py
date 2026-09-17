@@ -32,7 +32,11 @@ class Database:
                     answer TEXT NOT NULL, reason TEXT NOT NULL, created_at TEXT NOT NULL,
                     UNIQUE(game_id,request_id)
                 );
-                PRAGMA user_version=1;
+                CREATE TABLE IF NOT EXISTS corrections (
+                    event_id INTEGER PRIMARY KEY REFERENCES events(id),
+                    answer TEXT, note TEXT NOT NULL, created_at TEXT NOT NULL
+                );
+                PRAGMA user_version=2;
             """)
             db.executemany(
                 "INSERT INTO characters(id,name,record) VALUES(?,?,?) "
@@ -64,8 +68,23 @@ class Database:
         result['events'] = []
         if include_events:
             with self.connect() as db:
-                result['events'] = [dict(e) for e in db.execute(
-                    'SELECT id,kind,text,answer,created_at FROM events WHERE game_id=? ORDER BY id', (row['id'],))]
+                for event in db.execute('''
+                    SELECT e.id,e.kind,e.text,e.answer,e.created_at,c.event_id AS correction_id,
+                           c.answer AS revised_answer,c.note AS review_note
+                    FROM events e LEFT JOIN corrections c ON c.event_id=e.id
+                    WHERE e.game_id=? ORDER BY e.id''', (row['id'],)):
+                    item = dict(event)
+                    corrected = item.pop('correction_id') is not None
+                    revised = item.pop('revised_answer')
+                    if corrected:
+                        item['original_answer'] = item['answer']
+                        item['corrected'] = True
+                        item['withdrawn'] = revised is None
+                        if revised is not None:
+                            item['answer'] = revised
+                    else:
+                        item.pop('review_note')
+                    result['events'].append(item)
         return result
 
     def create(self, game: dict):
@@ -98,3 +117,24 @@ class Database:
     def abandon(self, game_id: str, now: str):
         with self.connect() as db:
             db.execute("UPDATE games SET status='abandoned',ended_at=? WHERE id=? AND status='active'", (now, game_id))
+
+    def correct_event(self, event_id: int, answer: str | None, note: str, now: str):
+        """Offline, evidence-backed maintenance only; stop the server first.
+
+        Preserve the original verdict. None withdraws an unsupported verdict and
+        refunds the valid-question count. Public notes must not reveal identity.
+        There is deliberately no player-accessible correction endpoint.
+        """
+        if answer not in ('是', '否', None):
+            raise ValueError('A correction must be yes/no, or a withdrawal')
+        with self.connect() as db:
+            event = db.execute('SELECT game_id,kind FROM events WHERE id=?', (event_id,)).fetchone()
+            if not event or event['kind'] != 'question':
+                raise ValueError('Only existing questions can be reviewed')
+            db.execute('INSERT INTO corrections(event_id,answer,note,created_at) VALUES(?,?,?,?)',
+                       (event_id, answer, note, now))
+            count = db.execute('''SELECT COUNT(*) FROM events e
+                LEFT JOIN corrections c ON c.event_id=e.id
+                WHERE e.game_id=? AND e.kind='question' AND e.answer!='无法回答'
+                AND (c.event_id IS NULL OR c.answer IS NOT NULL)''', (event['game_id'],)).fetchone()[0]
+            db.execute('UPDATE games SET question_count=? WHERE id=?', (count, event['game_id']))

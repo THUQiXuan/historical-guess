@@ -125,6 +125,8 @@ Public deployment needs HTTPS and access authentication at a reverse proxy, with
 
 ## Development and contributions
 
+Affiliation includes explicitly recorded surrender or allegiance. Serving a court requires actual evidence of service. Evidence-based maintenance reviews may correct or withdraw a verdict; the UI labels the review, while the database preserves the original. Withdrawn questions refund their count and are excluded from later reasoning context.
+
 ```text
 static/                 Plain HTML / CSS / JavaScript interface
 server/app.py           FastAPI routes, game rules, browser sessions

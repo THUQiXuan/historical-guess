@@ -151,8 +151,12 @@
       meta.append(node("span", "event-kind", event.kind === "guess" ? "猜人物" : "问史"), node("span", "", String(index + 1).padStart(2, "0")));
       const content = node("div", "event-question");
       const answerClass = event.answer === "正确" ? "correct" : event.answer === "否" || event.answer === "错误" ? "no" : event.answer === "无法回答" ? "invalid" : "";
-      content.append(node("p", "", event.text), node("span", `event-answer ${answerClass}`, event.answer));
+      const answerBadge = node(event.withdrawn ? "del" : "span", `event-answer ${answerClass}`, event.answer);
+      content.append(node("p", "", event.text), answerBadge);
       item.append(meta, content);
+      if (event.corrected) {
+        item.append(node("p", "field-hint", `${event.withdrawn ? "史实复核：已撤回，不计次数" : `史实复核：已更正（原答${event.original_answer}）`}。${event.review_note || ""}`));
+      }
       conversation.append(item);
     });
     const reveal = $("answer-reveal");

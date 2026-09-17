@@ -40,6 +40,7 @@ class FixtureJudge:
 
     async def question(self, character, history, text):
         self.question_calls += 1
+        self.history_seen = history
         if self.fail:
             from server.agent import AgentError
             raise AgentError('temporary test failure')
@@ -156,6 +157,26 @@ def test_abandon_reveals_and_stops_timer(setup):
         assert result['status'] == 'abandoned' and result['ended_at']
         assert result['answer']['sources'] and not result['timer_enabled']
         assert client.post(f"/api/games/{game['id']}/give-up").json() == result
+
+
+def test_review_preserves_original_verdict_and_refunds_withdrawal(setup):
+    app, judge, _, _ = setup
+    with TestClient(app) as client:
+        game = start(client, question_limit=2)
+        move(client, game, 'questions', '曾归附过其他阵营吗？')
+        result = move(client, game, 'questions', '曾正式任官吗？', 'request-0002').json()
+        first, second = result['events']
+        store = app.state.store
+        store.correct_event(first['id'], '否', '按史料更正。', '2026-01-01T00:00:00+00:00')
+        store.correct_event(second['id'], None, '依据不足，请勿据此排除候选。', '2026-01-01T00:00:00+00:00')
+        reviewed = client.get(f"/api/games/{game['id']}").json()
+        assert reviewed['question_count'] == 1 and reviewed['answer'] is None
+        assert reviewed['events'][0]['answer'] == '否'
+        assert reviewed['events'][0]['original_answer'] == '是'
+        assert reviewed['events'][1]['withdrawn'] is True
+        assert store.event(game['id'], 'request-0001')['answer'] == '是'
+        assert move(client, game, 'questions', '是男性吗？', 'request-0003').status_code == 200
+        assert len(judge.history_seen) == 1 and judge.history_seen[0]['answer'] == '否'
 
 
 @pytest.mark.asyncio
