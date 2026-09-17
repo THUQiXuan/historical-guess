@@ -71,6 +71,10 @@ scope_description 只概括用户范围，禁止透露选中人物或额外线�
 
 
 def _schema(properties: dict) -> dict:
+    # OpenAI strict structured outputs require explicit property types.
+    for spec in properties.values():
+        if 'enum' in spec and 'type' not in spec:
+            spec['type'] = ['string', 'null'] if None in spec['enum'] else 'string'
     return {"type": "object", "properties": properties, "required": list(properties), "additionalProperties": False}
 
 
