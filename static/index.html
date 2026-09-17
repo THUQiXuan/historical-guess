@@ -31,7 +31,7 @@
             <form id="setup-form">
               <fieldset class="range-fieldset"><legend>从哪段历史开始</legend><div id="preset-options" class="preset-options"><label class="preset-option selected"><input type="radio" name="preset" value="broad" checked><span><strong>广义三国</strong><small>汉末群雄，至西晋人物</small></span><span class="radio-mark"></span></label><label class="preset-option"><input type="radio" name="preset" value="sanguozhi"><span><strong>《三国志》人物</strong><small>名字出现于《三国志》</small></span><span class="radio-mark"></span></label></div></fieldset>
               <label class="field-label" for="scope">再缩小一点范围 <span>选填</span></label>
-              <textarea id="scope" name="scope" rows="3" maxlength="400" placeholder="例如：曾为蜀汉效力的人物"></textarea>
+              <textarea id="scope" name="scope" rows="3" maxlength="500" placeholder="例如：曾为蜀汉效力的人物"></textarea>
               <p class="field-hint">裁判会根据你的条件，从人物库中选人。</p>
               <div class="limit-fields"><div><label class="field-label" for="question-limit">提问上限</label><input id="question-limit" name="question_limit" type="number" min="1" step="1" max="10000" inputmode="numeric" placeholder="不限"></div><div><label class="field-label" for="guess-limit">猜测上限</label><input id="guess-limit" name="guess_limit" type="number" min="1" step="1" max="10000" inputmode="numeric" placeholder="不限"></div></div>
               <label class="checkbox-label"><input type="checkbox" id="timer-enabled" checked><span>显示游戏计时</span></label>
@@ -60,6 +60,12 @@
             </div>
           </section>
         </div>
+        <section id="chat-panel" class="chat-panel panel" aria-labelledby="chat-heading">
+          <div class="chat-heading"><div class="section-title"><span class="section-number">03</span><h2 id="chat-heading">史边闲谈</h2></div><span class="chat-unlimited">不限交流 · 不占游戏次数</span></div>
+          <div class="chat-toolbar"><div class="chat-tabs" role="tablist" aria-label="聊天主题"><button id="chat-tab-scope" class="chat-tab selected" type="button" role="tab" aria-selected="true" aria-controls="chat-content" data-chat-tab="scope">讨论范围</button><button id="chat-tab-game" class="chat-tab" type="button" role="tab" aria-selected="false" aria-controls="chat-content" data-chat-tab="game" disabled>本局交流</button></div><button id="chat-refresh" class="text-button muted" type="button">刷新对话 ↻</button></div>
+          <div id="chat-content" role="tabpanel" aria-labelledby="chat-tab-scope"><p id="chat-context" class="chat-context">开局前聊聊想猜的人物，也可以随时讨论下一局的范围。</p><div id="chat-messages" class="chat-messages" role="log" aria-live="polite" aria-label="自由聊天记录"></div><div id="chat-thinking" class="thinking hidden" role="status"><span class="thinking-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>正在整理回复，可以继续上方的游戏…</span></div><div id="chat-notice" class="chat-notice hidden" role="status"></div><div id="chat-error" class="inline-error hidden" role="alert"></div>
+          <form id="chat-form" class="chat-form"><label for="chat-input" id="chat-input-label" class="field-label">想聊些什么？</label><textarea id="chat-input" rows="3" maxlength="10000" placeholder="例如：我想猜《三国志》里的人物，能帮我想一个适合入门的范围吗？" required></textarea><div class="chat-composer-bottom"><span>Enter 发送 · Shift + Enter 换行</span><button id="chat-send" type="submit" class="button button-dark">发送 <span aria-hidden="true">↑</span></button></div></form></div>
+        </section>
       </section>
 
       <section id="view-library" class="view hidden" aria-labelledby="library-heading"><div class="page-heading"><div><p class="eyebrow">有名有据 · 人物小传</p><h1 id="library-heading">人物册</h1><p>翻阅人物与史料。开局后，裁判会从符合条件的人物中选出一位。</p></div><span class="large-count" id="library-total">— <small>位人物</small></span></div><div class="library-toolbar"><label class="search-input"><span aria-hidden="true">⌕</span><input id="library-search" type="search" placeholder="搜索姓名、别名或人物介绍" aria-label="搜索人物"></label><select id="library-preset" aria-label="人物范围"><option value="broad">广义三国</option><option value="sanguozhi">《三国志》人物</option></select></div><div id="library-notice" class="notice hidden" role="status"></div><div id="character-grid" class="character-grid"></div><div class="load-more-wrap"><button id="library-more" class="button button-outline hidden" type="button">再翻一页</button></div></section>

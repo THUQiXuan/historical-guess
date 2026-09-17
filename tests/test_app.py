@@ -179,6 +179,69 @@ def test_review_preserves_original_verdict_and_refunds_withdrawal(setup):
         assert len(judge.history_seen) == 1 and judge.history_seen[0]['answer'] == '否'
 
 
+def test_review_of_mistaken_invalid_question_counts_toward_limit(setup):
+    app, judge, db, data = setup
+
+    async def mistaken_invalid(character, history, text):
+        return {'answer': '无法回答', 'invalid': True, 'reason': '测试误判合法问题为无效。'}
+
+    judge.question = mistaken_invalid
+    with TestClient(app) as client:
+        game = start(client, question_limit=1)
+        original = move(client, game, 'questions', '是男性吗？').json()
+        assert original['question_count'] == 0
+        event_id = original['events'][0]['id']
+        cookies = dict(client.cookies)
+
+    # Maintenance happens offline, and the corrected count must survive restart.
+    app.state.store.correct_event(event_id, '是', '该问题合法，按史料更正。', '2026-01-01T00:00:00+00:00')
+    restarted_judge = FixtureJudge()
+    restarted = create_app(db, restarted_judge, data)
+    with TestClient(restarted) as client:
+        client.cookies.update(cookies)
+        corrected = client.get(f"/api/games/{game['id']}").json()
+        assert corrected['question_count'] == 1
+        assert corrected['events'][0]['answer'] == '是'
+        assert corrected['events'][0]['original_answer'] == '无法回答'
+        assert not corrected['events'][0]['withdrawn']
+        blocked = move(client, game, 'questions', '是皇帝吗？', 'request-0002')
+        assert blocked.status_code == 409
+        assert restarted_judge.question_calls == 0
+        assert client.get(f"/api/games/{game['id']}").json() == corrected
+
+
+def test_known_different_person_cannot_win_even_when_model_says_correct(setup):
+    app, judge, _, _ = setup
+
+    async def wrong_judge(character, text):
+        return {'answer': '正确', 'reason': '这个输入是有效的单一人物姓名。'}
+
+    judge.guess = wrong_judge
+    with TestClient(app) as client:
+        game = start(client)
+        # These are valid names/aliases but belong to a different corpus ID.
+        for index, text in enumerate(('王羲之', '王逸少', ' 王 羲 之！')):
+            reply = move(client, game, 'guesses', text, f'identity-{index:04}').json()
+            assert reply['events'][-1]['answer'] == '错误'
+            assert reply['status'] == 'active' and reply['answer'] is None
+
+
+def test_false_positive_guess_review_preserves_original_and_ends_revealed(setup):
+    app, _, _, _ = setup
+    with TestClient(app) as client:
+        game = start(client)
+        result = move(client, game, 'guesses', '曹操').json()
+        event_id = result['events'][-1]['id']
+        # Exercise the maintenance path with a test-only review.
+        app.state.store.correct_guess(event_id, '测试复核标记。', '2026-01-01T00:00:00+00:00')
+        reviewed = client.get(f"/api/games/{game['id']}").json()
+        assert reviewed['status'] == 'abandoned'
+        assert reviewed['events'][-1]['answer'] == '错误'
+        assert reviewed['events'][-1]['original_answer'] == '正确'
+        assert reviewed['guess_count'] == 1
+        assert app.state.store.event(game['id'], 'request-0001')['answer'] == '正确'
+
+
 @pytest.mark.asyncio
 async def test_concurrent_requests_cannot_exceed_limits(setup):
     app, judge, _, _ = setup

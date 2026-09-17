@@ -4,7 +4,7 @@
 
 One historical figure. A trail of clues. Find the name by asking yes-or-no questions.
 
-Wengu is a Chinese-language history guessing game that runs locally. A model selects a person, answers questions, and judges guesses; the browser provides the interface, and SQLite keeps the games. The frontend needs no build step and loads no external fonts, scripts, or images.
+Wengu is a Chinese-language history guessing game that runs locally. A model selects a person, answers questions, judges guesses, and discusses scopes and finished games. The browser provides the interface, and SQLite keeps games and chats. The frontend needs no build step and loads no external fonts, scripts, or images.
 
 ![Wengu interface](docs/screenshot.png)
 
@@ -35,7 +35,7 @@ bash start.sh
 
 Open **http://127.0.0.1:7992**. The command starts the web server and a persistent background Codex process. `Ctrl+C` stops both. This mode uses your existing local Codex authentication, so the project needs no API key. It communicates over the [Codex App Server](https://learn.chatgpt.com/docs/app-server) stdio protocol. Settings apply only to the child process; your global Codex configuration is unchanged.
 
-The default model is `gpt-5.6-sol`, with `low` reasoning for questions and guesses, `medium` for character selection, and the `fast` service tier. To customize it, copy the template and edit your local file:
+The default model is `gpt-5.6-sol`, with `low` reasoning for ordinary questions and free chat, `medium` for character selection and identity guesses, and the `fast` service tier. To customize it, copy the template and edit your local file:
 
 ```bash
 cp .env.example .env
@@ -45,12 +45,14 @@ cp .env.example .env
 | --- | --- |
 | `AGENT_PROVIDER` | `codex` |
 | `CODEX_MODEL` | `gpt-5.6-sol` when unset; an explicitly empty value inherits your local Codex model |
-| `CODEX_EFFORT` | `low`, for questions and guesses |
+| `CODEX_EFFORT` | `low`, for ordinary yes-or-no questions |
 | `CODEX_SELECT_EFFORT` | `medium`, for filtering and selecting characters |
+| `CODEX_GUESS_EFFORT` | `medium`, for name guesses and identity checks |
+| `CODEX_CHAT_EFFORT` | `low`, for free chat |
 | `CODEX_SERVICE_TIER` | `fast`; use `default` if unavailable |
 | `CODEX_AGENT_TIMEOUT` | `180`, timeout in seconds for a referee request |
 
-Fast availability and credit use depend on the model and account; see [Codex Speed](https://learn.chatgpt.com/docs/agent-configuration/speed). In the development environment, App Server reported the effective tier as `priority` when `fast` was requested. One small local sample took approximately 13.5 seconds to start the backend, 6.0 seconds to select a person, 4.9 seconds to answer, and 4.2 seconds to judge a guess. These are observations, not performance guarantees; installing dependencies and evaluating complex scopes can take longer.
+Fast availability and credit use depend on the model and account; see [Codex Speed](https://learn.chatgpt.com/docs/agent-configuration/speed). In the development environment, App Server reported the effective tier as `priority` when `fast` was requested. One small local sample took approximately 13.5 seconds to start the backend, 6.0 seconds to select a person, and 4.9 seconds to answer. These are observations, not performance guarantees; installing dependencies and evaluating complex scopes can take longer.
 
 ### Option B: Your own OpenAI-compatible API
 
@@ -76,12 +78,14 @@ The service must support [Chat Completions](https://platform.openai.com/docs/api
 | --- | --- |
 | `OPENAI_JSON_MODE=schema` | Request strict JSON Schema output from a model that supports it |
 | `OPENAI_JSON_MODE=object` | Use JSON object mode for other services; the server still validates results |
-| `OPENAI_REASONING_EFFORT` | Optional `reasoning_effort` for questions and guesses |
+| `OPENAI_REASONING_EFFORT` | Optional `reasoning_effort` for ordinary questions and operations without a dedicated override |
 | `OPENAI_SELECT_EFFORT` | Optional `reasoning_effort` for selection |
+| `OPENAI_GUESS_EFFORT` | Optional `reasoning_effort` for name guesses and identity checks |
+| `OPENAI_CHAT_EFFORT` | Optional `reasoning_effort` for free chat |
 | `OPENAI_SERVICE_TIER` | Optional provider-supported `service_tier` |
 | `OPENAI_TIMEOUT` | Request timeout in seconds; default `120` |
 
-Leave reasoning and service-tier values empty if your provider does not support those fields. Restart after editing `.env`. Git ignores `.env`; enter credentials only in your own local file.
+An unset dedicated reasoning variable inherits `OPENAI_REASONING_EFFORT`. If that is also empty, the request omits `reasoning_effort`. An explicitly empty dedicated variable also suppresses the field for that operation. Leave reasoning and service-tier values empty if your provider does not support those fields. Restart after editing `.env`. Git ignores `.env`; enter credentials only in your own local file.
 
 ## Rules and historical scope
 
@@ -99,9 +103,25 @@ The **Records of the Three Kingdoms** preset contains corpus entries with name e
 
 You can keep guessing after questions run out. The game ends when guesses run out. The optional timer includes model processing, waiting, and time while the page is closed.
 
+Affiliation includes explicitly recorded surrender or allegiance. Serving a court requires actual evidence of service. A guess must identify the selected person, not merely be a valid historical name. If a complete name or alias maps to other character IDs in the corpus, the server overrides an incorrect positive model verdict.
+
+Evidence-based maintenance reviews may correct or withdraw a verdict; the UI labels the review, while the database preserves the original. Withdrawn questions refund their count and are excluded from later reasoning context. A historical false-positive win can also be reviewed while preserving its original verdict. Because its answer has already been revealed, that game remains ended and cannot resume as a playable game.
+
+## Free chat and game review
+
+The separate **史边闲谈** chat panel below the game accepts open discussion and full replies, beyond the game's yes-or-no answers.
+
+- **讨论范围 — Discuss scope:** Plan characters, difficulty, or source restrictions before a game, or prepare the next one at any time. **采用此范围** applies a suggested scope to the setup form. It does not start a game or change the current one.
+- **本局交流 — Current game:** Starting or restoring a game associates its own chat. Discuss rules and how to play. For an active game, the backend does not provide the chat model with the secret character, game question/guess records, or internal judgment notes. Use the game forms above for clues and guesses.
+- **本局复盘 — Review this game:** Once the answer is revealed, discuss the person and every recorded question. **解释这题** beside a record fills the chat input with that question; click **发送** to request an explanation. Chat can identify questionable judgments, but does not edit saved game records itself.
+
+Chat has **unlimited turns**, consumes **no question or guess attempts**, and accepts up to **10,000 characters per message**. Press `Enter` to send or `Shift + Enter` for a newline. Game controls remain available while a chat reply is pending.
+
+Scope discussion and each game's chat are stored separately. Switching or restoring games loads their corresponding chats. SQLite retains the full history across refreshes. Each model request receives only the most recent **48,000 characters of prior chat**; older messages remain available in the database and interface. Paste relevant earlier details again when needed.
+
 ## Storage, access, and privacy
 
-Games are stored in `var/games.sqlite3`, including a character snapshot, rules, questions, guesses, and timestamps. Games survive refreshes and server restarts. A browser cookie identifies its history; clearing it or switching browsers does not automatically restore access to earlier games. For a simple backup, stop the server before copying `var/`.
+Games and chats are stored in `var/games.sqlite3`, including a character snapshot, rules, questions, guesses, free chat, and timestamps. Games survive refreshes and server restarts. A browser cookie identifies its history; clearing it or switching browsers does not automatically restore access to earlier games. For a simple backup, stop the server before copying `var/`.
 
 Keep `.env`, `var/`, databases, and logs out of version control. Credentials stay on the server. Game inputs and relevant character data are sent to your selected model service. The app has no account system; browser sessions are not a complete user authentication system.
 
@@ -124,8 +144,6 @@ With VS Code / Cursor Remote SSH, opening the project root as your workspace loa
 Public deployment needs HTTPS and access authentication at a reverse proxy, with controls for model usage. Keep a single web worker; current game operation locks are held within the process.
 
 ## Development and contributions
-
-Affiliation includes explicitly recorded surrender or allegiance. Serving a court requires actual evidence of service. Evidence-based maintenance reviews may correct or withdraw a verdict; the UI labels the review, while the database preserves the original. Withdrawn questions refund their count and are excluded from later reasoning context.
 
 ```text
 static/                 Plain HTML / CSS / JavaScript interface

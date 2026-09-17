@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
-from .agent import AgentError, BASE_INSTRUCTIONS, CodexAgent, SELECTION_RULES, _json, _valid_object
+from .agent import AgentError, BASE_INSTRUCTIONS, CHAT_RULES, CodexAgent, GUESS_RULES, SELECTION_RULES, _json, _valid_object
 
 
 class OpenAICompatibleAgent(CodexAgent):
@@ -67,6 +67,12 @@ class OpenAICompatibleAgent(CodexAgent):
             effort = os.environ.get('OPENAI_REASONING_EFFORT', '')
             if rules == SELECTION_RULES:
                 effort = os.environ.get('OPENAI_SELECT_EFFORT', effort)
+            elif rules == GUESS_RULES:
+                # Optional for non-reasoning models and compatible providers.
+                # An explicitly empty override suppresses the general setting.
+                effort = os.environ.get('OPENAI_GUESS_EFFORT', effort)
+            elif rules == CHAT_RULES:
+                effort = os.environ.get('OPENAI_CHAT_EFFORT', effort)
             if effort:
                 payload['reasoning_effort'] = effort
             tier = os.environ.get('OPENAI_SERVICE_TIER', '')

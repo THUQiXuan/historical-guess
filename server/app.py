@@ -5,6 +5,7 @@ import logging
 import os
 import re
 import secrets
+import unicodedata
 import uuid
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
@@ -55,6 +56,34 @@ class Move(BaseModel):
         return value
 
 
+class ChatMessage(Move):
+    text: str = Field(min_length=1, max_length=10000)
+    game_id: str | None = Field(default=None, min_length=1, max_length=100)
+    preset: Literal['broad', 'sanguozhi'] = 'broad'
+    scope: str = Field(default='', max_length=500)
+
+
+def chat_context_window(messages: list[dict], max_chars: int = 48000):
+    """Unlimited persisted turns; bound a single model request's input size."""
+    recent = []
+    used = 0
+    for message in reversed(messages):
+        if recent and used + len(message['text']) > max_chars:
+            break
+        recent.append({'role': message['role'], 'text': message['text']})
+        used += len(message['text'])
+    recent.reverse()
+    if recent and recent[0]['role'] == 'assistant':
+        recent.pop(0)
+    return recent
+
+
+def normalize_identity(text: str):
+    # Exact whole-name matching only. Never treat a name embedded in a list,
+    # instruction, or arbitrary sentence as a valid single-person guess.
+    return ''.join(unicodedata.normalize('NFKC', text).split()).strip('。.!！?？')
+
+
 def load_characters(path: Path):
     people = json.loads(path.read_text())
     ids = set()
@@ -78,6 +107,10 @@ def create_app(db_path=None, agent=None, data_path=None):
 
     characters = load_characters(Path(data_path or ROOT / 'data/characters.json'))
     references = {person['id']: person for person in characters}
+    identities: dict[str, set[str]] = {}
+    for person in characters:
+        for name in [person['name'], *person.get('aliases', [])]:
+            identities.setdefault(normalize_identity(name), set()).add(person['id'])
     store = Database(Path(db_path or os.environ.get('GAME_DB', ROOT / 'var/games.sqlite3')), characters)
     provider = os.environ.get('AGENT_PROVIDER', 'codex')
     if provider not in ('codex', 'openai'):
@@ -137,13 +170,86 @@ def create_app(db_path=None, agent=None, data_path=None):
 
     @app.exception_handler(RequestValidationError)
     async def validation_error(request, exc):
-        return JSONResponse({'detail': '输入不合法：内容不能为空，次数须为 1–10000 的整数或留空。'}, status_code=422)
+        message = ('聊天内容不能为空，单条不超过 10000 字；范围不超过 500 字。'
+                   if request.url.path == '/api/chat' else '输入不合法：内容不能为空，次数须为 1–10000 的整数或留空。')
+        return JSONResponse({'detail': message}, status_code=422)
 
     def get_owned(game_id: str, owner: str):
         game = store.get(game_id, owner)
         if not game:
             raise HTTPException(404, '找不到这局游戏，请在创建它的浏览器中打开。')
         return game
+
+    def current_reference(snapshot: dict):
+        person = dict(snapshot)
+        latest = references.get(person['id'])
+        if latest:
+            for field in ('facts', 'sources', 'factions', 'sanguozhi', 'sanguozhi_evidence'):
+                if field in latest:
+                    person[field] = latest[field]
+        return person
+
+    def chat_view(owner: str, game_id: str | None):
+        game = get_owned(game_id, owner) if game_id else None
+        mode = 'scope' if game is None else ('active' if game['status'] == 'active' else 'review')
+        return {'messages': store.chat_messages(owner, game_id or 'scope'), 'mode': mode, 'game_id': game_id}
+
+    @app.get('/api/chat')
+    async def get_chat(request: Request, game_id: str | None = Query(None, min_length=1, max_length=100)):
+        return chat_view(request.state.owner, game_id)
+
+    @app.post('/api/chat')
+    async def send_chat(body: ChatMessage, request: Request):
+        owner, target = request.state.owner, body.game_id or 'scope'
+        # Check ownership even for replayed requests; never expose a conversation
+        # by guessing another player's game UUID.
+        game = get_owned(body.game_id, owner) if body.game_id else None
+        signature = json.dumps({'text': body.text, 'preset': body.preset, 'scope': body.scope},
+                               ensure_ascii=False, sort_keys=True)
+        async with locks.setdefault('chat:' + owner + ':' + target, asyncio.Lock()):
+            previous = store.chat_turn(owner, target, body.request_id)
+            if previous:
+                if previous['input_json'] != signature:
+                    raise HTTPException(409, '这个请求编号已用于另一条聊天内容，请重新提交。')
+                return chat_view(owner, body.game_id)
+            messages = store.chat_messages(owner, target)
+            history = chat_context_window(messages)
+            rules = (
+                '可自由讨论，不限轮数，不消耗游戏提问或猜测次数。范围讨论不等于开始新局，建议须玩家采用。'
+                '基础题库为184–316年间在世人物；三国志预设含正文与裴注已核实子集。'
+                '阵营含明确投降归附，任职须实际证据。不得声称已修改游戏或更正原始记录。'
+            )
+            if game is None:
+                context = {'mode': 'scope', 'rules': rules, 'preset': body.preset, 'scope': body.scope,
+                           'corpus_summary': {'total': len(characters), 'sanguozhi_verified': sum(p['sanguozhi'] for p in characters),
+                                              'description': '精选题库，非全部历史人物。未知生卒年为null，不可自行推断。'},
+                           'characters': [{key: p.get(key) for key in ('name', 'gender', 'factions', 'roles', 'birth_year',
+                                                                 'death_year', 'sanguozhi', 'summary')} for p in characters]}
+            else:
+                # The game may have ended while this chat waited in the queue.
+                game = get_owned(body.game_id, owner)
+                if game['status'] == 'active':
+                    # No secret, guesses, discriminating answers, or internal
+                    # explanations are ever sent to the free-chat model here.
+                    context = {'mode': 'active', 'rules': rules, 'preset': game['preset'],
+                               'scope': game['scope'], 'candidate_count': game['candidate_count']}
+                else:
+                    context = {'mode': 'review', 'rules': rules, 'game': store.public(game),
+                               'character': current_reference(json.loads(game['character'])),
+                               'decision_notes': store.decision_notes(game['id'])}
+            context['history_omitted_count'] = len(messages) - len(history)
+            started = timestamp()
+            reply = await judge.chat(context, history, body.text)
+            if not isinstance(reply, dict) or not isinstance(reply.get('text'), str) or not reply['text'].strip() or len(reply['text']) > 30000:
+                raise HTTPException(503, '裁判未返回有效聊天内容，请重试。')
+            suggestion = reply.get('suggested_scope')
+            if suggestion is not None and (not isinstance(suggestion, dict)
+                    or set(suggestion) != {'preset', 'scope'} or suggestion['preset'] not in ('broad', 'sanguozhi')
+                    or not isinstance(suggestion['scope'], str) or len(suggestion['scope']) > 500):
+                raise HTTPException(503, '裁判返回的范围建议无效，请重试。')
+            store.save_chat(str(uuid.uuid4()), owner, target, body.request_id, signature,
+                            body.text, reply['text'].strip(), suggestion, started, timestamp())
+            return chat_view(owner, body.game_id)
 
     @app.get('/api/meta')
     async def meta():
@@ -224,14 +330,9 @@ def create_app(db_path=None, agent=None, data_path=None):
                 raise HTTPException(409, '这局游戏已经结束。')
             if kind == 'question' and game['question_limit'] is not None and game['question_count'] >= game['question_limit']:
                 raise HTTPException(409, '提问次数已用完，还可以提交人物猜测。')
-            person = json.loads(game['character'])
+            person = current_reference(json.loads(game['character']))
             # Preserve the saved identity and original event history, while
             # allowing published historical errata to inform an ongoing game.
-            latest = references.get(person['id'])
-            if latest:
-                for field in ('facts', 'sources', 'factions', 'sanguozhi', 'sanguozhi_evidence'):
-                    if field in latest:
-                        person[field] = latest[field]
             if kind == 'question':
                 events = [event for event in store.public(game)['events'] if not event.get('withdrawn')]
                 verdict = await judge.question(person, events, body.text)
@@ -243,6 +344,10 @@ def create_app(db_path=None, agent=None, data_path=None):
                 answer = verdict.get('answer')
                 if answer not in ('正确', '错误'):
                     raise HTTPException(503, '裁判未给出有效判断，请重试。本次不计次数。')
+                known = identities.get(normalize_identity(body.text), set())
+                if known and person['id'] not in known:
+                    answer = '错误'
+                    verdict = {**verdict, 'reason': '身份核验：输入姓名或别名对应题库中的其他人物，与本局固定人物ID不同。'}
             store.record(game, body.request_id, kind, body.text, answer, str(verdict.get('reason', '')), timestamp())
             return store.public(get_owned(game_id, request.state.owner))
 

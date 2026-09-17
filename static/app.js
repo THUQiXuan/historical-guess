@@ -6,6 +6,7 @@
   const TIMER_KEY = "wengu:timer-hidden";
   const statuses = { active: "推理中", won: "已猜中", lost: "猜测用尽", abandoned: "已揭晓" };
   const state = { game: null, busy: false, meta: null, view: "play", pending: null, timerHidden: false, libraryOffset: 0, libraryTotal: 0, libraryLoading: false, libraryRevision: 0, historyOffset: 0, historyTotal: 0, historyLoading: false };
+  const chatState = { key: "scope", sessions: new Map() };
   let searchTimer;
 
   function node(tag, className, text) {
@@ -157,6 +158,20 @@
       if (event.corrected) {
         item.append(node("p", "field-hint", `${event.withdrawn ? "史实复核：已撤回，不计次数" : `史实复核：已更正（原答${event.original_answer}）`}。${event.review_note || ""}`));
       }
+      if (!active) {
+        const explain = node("button", "text-button event-explain", "解释这题 ↗");
+        explain.type = "button";
+        explain.title = "将这条记录填入复盘聊天，点击发送后解释";
+        explain.addEventListener("click", () => {
+          selectChat("game");
+          fillChatDraft(`请解释本局第 ${index + 1} 条${event.kind === "guess" ? "猜测" : "提问"}记录：\n${event.text}\n记录中的回答是「${event.answer}」。请结合史实解释判断依据；若原判断有误，请明确指出。`);
+          $("chat-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+          chatSession().notice = "已把这条记录填入输入框，点击「发送」即可复盘。";
+          renderChat();
+          $("chat-input").focus({ preventScroll: true });
+        });
+        meta.append(explain);
+      }
       conversation.append(item);
     });
     const reveal = $("answer-reveal");
@@ -172,6 +187,14 @@
     refreshDisabled();
     updateTimer();
     if (options.scroll !== false) conversation.scrollTop = conversation.scrollHeight;
+    $("chat-tab-game").disabled = false;
+    $("chat-tab-game").textContent = active ? "本局交流" : "本局复盘";
+    if (oldId !== game.id) selectChat("game");
+    else if (chatState.key === `game:${game.id}`) {
+      renderChat();
+      const session = chatSession();
+      if (session.data?.mode === "active" && !active) loadChat(chatState.key, true);
+    }
   }
   async function loadMeta() {
     try {
@@ -262,6 +285,169 @@
     try { renderGame(await post(`/api/games/${encodeURIComponent(state.game.id)}/give-up`, {})); }
     catch (error) { notice("game-error", error.message, true); }
     finally { setBusy(false); }
+  }
+  function chatSession(key = chatState.key) {
+    if (!chatState.sessions.has(key)) chatState.sessions.set(key, { data: null, loaded: false, loading: false, busy: false, draft: "", pending: null, error: "", notice: "", revision: 0 });
+    return chatState.sessions.get(key);
+  }
+  function chatGameId(key = chatState.key) { return key.startsWith("game:") ? key.slice(5) : null; }
+  function currentChatMode() { return chatState.key === "scope" ? "scope" : state.game?.status === "active" ? "active" : "review"; }
+  function selectChat(tab) {
+    if (tab === "game" && !state.game) return;
+    chatSession().draft = $("chat-input").value;
+    chatState.key = tab === "game" ? `game:${state.game.id}` : "scope";
+    const session = chatSession();
+    $("chat-input").value = session.draft;
+    renderChat();
+    if (!session.loading && !session.busy) loadChat(chatState.key, true);
+  }
+  function fillChatDraft(text) {
+    const session = chatSession();
+    session.draft = text;
+    $("chat-input").value = text;
+    $("chat-input").focus({ preventScroll: true });
+  }
+  function validSuggestion(suggestion) {
+    return suggestion && ["broad", "sanguozhi"].includes(suggestion.preset) && typeof suggestion.scope === "string" && suggestion.scope.length <= 500;
+  }
+  function applySuggestion(suggestion) {
+    if (!validSuggestion(suggestion)) return;
+    const radio = document.querySelector(`input[name="preset"][value="${suggestion.preset}"]`);
+    radio.checked = true;
+    radio.dispatchEvent(new Event("change", { bubbles: true }));
+    $("scope").value = suggestion.scope;
+    const session = chatSession();
+    session.notice = "已填入开局设定。点击上方「请古人入局」即可使用这个范围。";
+    renderChat();
+  }
+  function chatMessage(message, pending = false) {
+    const user = message.role === "user";
+    const item = node("article", `chat-message chat-message-${user ? "user" : "assistant"}${pending ? " chat-message-pending chat-draft-pending" : ""}`);
+    item.append(node("span", "chat-avatar", user ? "你" : "问"));
+    const body = node("div", "chat-message-body");
+    const meta = node("div", "chat-message-meta");
+    meta.append(node("span", "", user ? "你" : "问古"));
+    if (message.created_at) {
+      const time = node("time", "", readableDate(message.created_at));
+      time.dateTime = message.created_at;
+      meta.append(time);
+    }
+    body.append(meta, node("p", "chat-message-text", message.text));
+    if (!user && validSuggestion(message.suggested_scope)) {
+      const suggestion = node("div", "chat-suggestion");
+      const description = node("div");
+      description.append(node("small", "", "可用于下一局的范围"), node("p", "", `${presetName(message.suggested_scope.preset)}${message.suggested_scope.scope ? ` · ${message.suggested_scope.scope}` : " · 不额外缩小范围"}`));
+      const adopt = node("button", "button button-outline button-small", "采用此范围");
+      adopt.type = "button";
+      adopt.addEventListener("click", () => applySuggestion(message.suggested_scope));
+      suggestion.append(description, adopt);
+      body.append(suggestion);
+    }
+    item.append(body);
+    return item;
+  }
+  function renderChat(scroll = true) {
+    const session = chatSession();
+    const mode = currentChatMode();
+    const isScope = mode === "scope";
+    const gameTab = $("chat-tab-game");
+    gameTab.disabled = !state.game;
+    gameTab.textContent = state.game && state.game.status !== "active" ? "本局复盘" : "本局交流";
+    document.querySelectorAll(".chat-tab").forEach((tab) => {
+      const selected = tab.dataset.chatTab === (isScope ? "scope" : "game");
+      tab.classList.toggle("selected", selected);
+      tab.setAttribute("aria-selected", String(selected));
+    });
+    $("chat-content").setAttribute("aria-labelledby", isScope ? "chat-tab-scope" : "chat-tab-game");
+    $("chat-context").textContent = isScope ? "开局前聊聊想猜的人物，也可以随时讨论下一局的范围。" : mode === "active" ? "当前这局还在推理中，可以聊玩法与规则；人物线索请在上方提问。" : `正在复盘${state.game?.answer?.name ? `「${state.game.answer.name}」这一局` : "当前这局"}，可自由讨论人物史实、逐条问答和判断依据。`;
+    $("chat-input-label").textContent = isScope ? "聊聊你想要的范围" : mode === "active" ? "想了解哪些玩法？" : "这局有哪些想追问的地方？";
+    $("chat-input").placeholder = isScope ? "例如：我想猜《三国志》里的人物，能帮我想一个适合入门的范围吗？" : mode === "active" ? "例如：是否问题可以包含两个条件吗？" : "例如：请逐条解释这局问答，指出判断依据和可能的错误。";
+    $("chat-input").disabled = session.busy;
+    $("chat-send").disabled = session.busy || session.loading;
+    $("chat-send").firstChild.textContent = session.busy ? "回复中 " : "发送 ";
+    $("chat-refresh").disabled = session.busy || session.loading;
+    setHidden("chat-thinking", !session.busy);
+    notice("chat-error", session.error);
+    notice("chat-notice", session.notice);
+    const messages = $("chat-messages");
+    const oldScroll = messages.scrollTop;
+    messages.replaceChildren();
+    if (session.loading && !session.loaded) messages.append(node("p", "chat-loading", "正在取回这段对话…"));
+    else if (!session.data?.messages?.length && !session.busy) {
+      const empty = node("div", "chat-empty");
+      empty.append(node("h3", "", isScope ? "先聊一聊，再请古人入局。" : mode === "active" ? "推理之外，也可从容交流。" : "答案已揭晓，故事还可以继续。"));
+      empty.append(node("p", "", isScope ? "告诉我你的兴趣与熟悉程度，一起选定一个有趣的范围。" : mode === "active" ? "这里可以解释玩法，等揭晓后还能一起核对史实。" : "问问一条线索的来由，或让裁判完整复盘这次推理。"));
+      const starters = node("div", "chat-starters");
+      const examples = isScope ? ["帮我推荐一个适合入门的范围", "我想猜《三国志》里的女性人物"] : mode === "active" ? ["一次是否问题可以包含几个条件？", "猜人物时可以提交字号吗？"] : ["请逐条复盘这局问答", "这个人物有哪些值得了解的故事？"];
+      examples.forEach((text) => {
+        const button = node("button", "chat-starter", text);
+        button.type = "button";
+        button.addEventListener("click", () => fillChatDraft(text));
+        starters.append(button);
+      });
+      empty.append(starters);
+      messages.append(empty);
+    }
+    (session.data?.messages || []).forEach((message) => messages.append(chatMessage(message)));
+    if (session.busy && session.pending) messages.append(chatMessage({ role: "user", text: session.pending.text }, true));
+    messages.scrollTop = scroll ? messages.scrollHeight : oldScroll;
+  }
+  function checkedChatData(data, key) {
+    if (!data || !Array.isArray(data.messages) || (data.game_id ?? null) !== chatGameId(key)) throw new Error("聊天记录格式异常，请刷新对话后重试。");
+    return data;
+  }
+  async function loadChat(key = chatState.key, force = false) {
+    const session = chatSession(key);
+    if (session.busy || session.loading || (session.loaded && !force)) return;
+    session.loading = true;
+    session.error = "";
+    const revision = ++session.revision;
+    if (chatState.key === key) renderChat(false);
+    try {
+      const gameId = chatGameId(key);
+      const data = checkedChatData(await api(`/api/chat${gameId ? `?game_id=${encodeURIComponent(gameId)}` : ""}`), key);
+      if (session.revision === revision) { session.data = data; session.loaded = true; }
+    } catch (error) { if (session.revision === revision) session.error = error.message; }
+    finally {
+      if (session.revision === revision) session.loading = false;
+      if (chatState.key === key) renderChat();
+    }
+  }
+  async function sendChat(event) {
+    event?.preventDefault();
+    const key = chatState.key;
+    const session = chatSession(key);
+    if (session.busy || session.loading) return;
+    const text = $("chat-input").value.trim();
+    if (!text) { $("chat-input").focus(); return; }
+    const payload = { text, game_id: chatGameId(key), preset: document.querySelector("input[name=preset]:checked").value, scope: $("scope").value.trim() };
+    const signature = JSON.stringify(payload);
+    if (session.pending?.signature !== signature) session.pending = { ...payload, signature, request_id: requestId() };
+    const body = { ...payload, request_id: session.pending.request_id };
+    session.draft = text;
+    $("chat-input").value = text;
+    session.busy = true;
+    session.error = "";
+    session.notice = "";
+    const revision = ++session.revision;
+    renderChat();
+    try {
+      const data = checkedChatData(await post("/api/chat", body), key);
+      if (session.revision === revision) {
+        session.data = data;
+        session.loaded = true;
+        session.pending = null;
+        if (session.draft === text) session.draft = "";
+      }
+    } catch (error) { if (session.revision === revision) session.error = error.message; }
+    finally {
+      if (session.revision === revision) session.busy = false;
+      if (chatState.key === key) {
+        $("chat-input").value = session.draft;
+        renderChat();
+        $("chat-input").focus({ preventScroll: true });
+      }
+    }
   }
   function characterCard(person) {
     const card = node("article", "character-card");
@@ -382,6 +568,16 @@
     $("library-more").addEventListener("click", () => loadLibrary(false));
     $("history-more").addEventListener("click", () => loadHistory(false));
     $("history-refresh").addEventListener("click", () => loadHistory(true));
+    document.querySelectorAll(".chat-tab").forEach((tab) => tab.addEventListener("click", () => selectChat(tab.dataset.chatTab)));
+    $("chat-form").addEventListener("submit", sendChat);
+    $("chat-input").addEventListener("input", () => { chatSession().draft = $("chat-input").value; });
+    $("chat-input").addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && !event.shiftKey && !event.isComposing && event.keyCode !== 229) {
+        event.preventDefault();
+        if (!$("chat-send").disabled) $("chat-form").requestSubmit();
+      }
+    });
+    $("chat-refresh").addEventListener("click", () => loadChat(chatState.key, true));
     setInterval(updateTimer, 1000);
     setBusy(true);
     $("start-button").firstElementChild.textContent = "正在连接裁判…";
@@ -392,6 +588,7 @@
       try { renderGame(await api(`/api/games/${encodeURIComponent(lastId)}`), { scroll: false }); }
       catch { /* A deleted database or expired browser session simply starts fresh. */ }
     }
+    if (!state.game) selectChat("scope");
     setBusy(false);
   }
   init();
